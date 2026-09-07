@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"tertiary-fixed-dim":"#ffb77d","tertiary":"#5a2e00","background":"#f8f9fa","surface-container-highest":"#e1e3e4","surface-container-lowest":"#ffffff","primary-container":"#2d5a27","tertiary-container":"#7c4100","on-tertiary":"#ffffff","on-primary-fixed":"#002201","inverse-primary":"#a1d494","surface-container-high":"#e7e8e9","error-container":"#ffdad6","primary":"#154212","on-primary":"#ffffff","outline":"#72796e","secondary-fixed-dim":"#b6c4ff","tertiary-fixed":"#ffdcc3","on-primary-container":"#9dd090","on-tertiary-fixed-variant":"#6e3900","secondary-container":"#8fa7fe","surface-container":"#edeeef","on-secondary-container":"#1d3989","on-primary-fixed-variant":"#23501e","on-secondary-fixed":"#00164e","surface":"#f8f9fa","on-background":"#191c1d","secondary":"#4059aa","primary-fixed":"#bcf0ae","on-secondary":"#ffffff","surface-bright":"#f8f9fa","primary-fixed-dim":"#a1d494","on-error-container":"#93000a","on-tertiary-fixed":"#2f1500","inverse-surface":"#2e3132","surface-tint":"#3b6934","error":"#ba1a1a","on-surface":"#191c1d","surface-container-low":"#f3f4f5","inverse-on-surface":"#f0f1f2","secondary-fixed":"#dce1ff","on-tertiary-container":"#ffb273","surface-dim":"#d9dadb","on-surface-variant":"#42493e","on-error":"#ffffff","on-secondary-fixed-variant":"#264191","surface-variant":"#e1e3e4","outline-variant":"#c2c9bb"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"sidebar-collapsed-width":"4.5rem","max-content-width":"90rem","space-sm":"0.75rem","space-2xl":"2.5rem","space-xl":"2rem","space-3xl":"3rem","sidebar-width":"16.25rem","space-2xs":"0.25rem","space-md":"1rem","margin-desktop":"2rem","gutter-desktop":"1.5rem","space-xs":"0.5rem","space-lg":"1.5rem"},fontFamily:{"display-lg":["plusJakartaSans"],"body-sm":["plusJakartaSans"],"headline-md":["plusJakartaSans"],"body-md":["plusJakartaSans"],"label-sm":["plusJakartaSans"],"body-lg":["plusJakartaSans"],"headline-xl":["plusJakartaSans"],"headline-lg":["plusJakartaSans"],"label-md":["plusJakartaSans"],"label-lg":["plusJakartaSans"]},fontSize:{"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"18px","letterSpacing":"0.005em","fontWeight":"400"}],"headline-md":["18px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-xl":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface min-h-screen"><aside class="fixed left-0 top-0 h-full w-sidebar-width bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between overflow-y-auto"><div class="flex flex-col"><div class="p-space-lg flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="Logo Araucaria Alto del Carmen" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUfF1F38ywhQfQGv1GwgfNtQffeBdmOI3ZNXzgfPOOU0C3SY48kOA6NkAchEDvc_twVzJRjUUal2EsB5iO6GrOvlHdmaLFZQ9AwkAH33bmecWEMn366PS_MQF0RMB0nSiA--0Sx7oI3XbXupGRVLsDOKcyWzRKMUzCbgaQmBzZohWk8Kl3iKjddPGqmU8kBs8vXg5gwzMH4RzksNGloGBjsBZ8mv7D2flnUN5v5G57AnWS25u5c_5NZw"/><div class="flex flex-col"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">Alto del Carmen</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Panel de Gestión</span></div></div><div class="h-px w-full bg-surface-container-high my-space-xs"></div><div class="flex items-center gap-space-sm p-space-xs rounded-xl bg-surface-container-low"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VRhM59p_43__zkU9uBtpTTklRwlYYhRYmngHmG1S-TKDLEIZrTql80GoXTonEikyXbWEiavVfHm2oJLgChqyB65Sak4xiR-XwkXj2V2Whfe6jKYjbRd9ZtGiI6hBQYhEEKYSpSf3DCR8HgZEyurzmpcxBcL6x-30UR5bjwAk9K3QhGgWIJbVi7oZ5NyoctFr_M3ueUXEVrLRtSN7CQ_wB6UzohD0hNhsoI3oIdaiZaXJVHeui8D5llSq4"/><div class="flex flex-col overflow-hidden"><span class="font-label-md text-label-md text-on-surface truncate font-semibold">Juan Pérez</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Admin DIDECO</span></div></div></div><nav class="flex flex-col gap-space-2xs px-space-md mt-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-bold"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="dashboard" href="dashboard.html"><span class="material-symbols-outlined text-[20px]">space_dashboard</span><span class="font-label-lg text-label-lg">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="talleres" href="talleres.html"><span class="material-symbols-outlined text-[20px]">school</span><span class="font-label-lg text-label-lg">Gestión de Talleres</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="inscripciones" href="inscripciones.html"><span class="material-symbols-outlined text-[20px]">how_to_reg</span><span class="font-label-lg text-label-lg">Inscripción Vecinos</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl transition-colors bg-primary-container text-on-primary-container font-bold" data-path="asistencia" href="asistencia.html"><span class="material-symbols-outlined text-[20px]">fact_check</span><span class="font-label-lg text-label-lg">Control Asistencia</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="inventario" href="inventario.html"><span class="material-symbols-outlined text-[20px]">inventory_2</span><span class="font-label-lg text-label-lg">Inventario y Equipos</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="reportes" href="reportes.html"><span class="material-symbols-outlined text-[20px]">analytics</span><span class="font-label-lg text-label-lg">Reportes y Dirección</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="configuracion" href="configuracion.html"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-label-lg text-label-lg">Configuración</span></a></nav></div><div class="p-space-lg"><div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col gap-space-2xs"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Centro Comunitario</span><span class="font-body-sm text-body-sm text-on-surface font-semibold">Alto del Carmen</span></div></div></aside><div class="pl-sidebar-width"><header class="fixed top-0 left-sidebar-width right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-xl"><div class="flex items-center gap-space-md flex-1 max-w-xl"><div class="relative w-full"><span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span><input class="w-full h-10 pl-10 pr-space-md rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary/20" placeholder="Buscar vecinos, fichas, talleres o solicitudes..." type="search"/></div><div class="flex items-center gap-space-xs rounded-xl bg-surface-container-low px-space-sm py-1.5 shrink-0"><span class="material-symbols-outlined text-outline text-[18px]">location_on</span><select class="bg-transparent text-on-surface font-label-md text-label-md focus:outline-none pr-space-xs"><option value="all">Todo el Comunal</option><option value="san-felix">Sede San Félix</option><option value="el-transito">Sede El Tránsito</option></select></div></div><div class="flex items-center gap-space-md"><button aria-label="Notificaciones" class="relative p-space-xs rounded-xl hover:bg-surface-container-high text-on-surface-variant transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 w-4 h-4 rounded-full bg-error text-on-error font-label-sm text-[10px] flex items-center justify-center font-bold">3</span></button><div class="h-6 w-px bg-surface-container-high"></div><div class="flex items-center gap-space-sm"><div class="text-right hidden sm:flex sm:flex-col"><span class="font-label-md text-label-md font-semibold text-on-surface leading-tight">Juan Pérez</span><span class="font-label-sm text-label-sm text-on-surface-variant">Administrador Municipal</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VRhM59p_43__zkU9uBtpTTklRwlYYhRYmngHmG1S-TKDLEIZrTql80GoXTonEikyXbWEiavVfHm2oJLgChqyB65Sak4xiR-XwkXj2V2Whfe6jKYjbRd9ZtGiI6hBQYhEEKYSpSf3DCR8HgZEyurzmpcxBcL6x-30UR5bjwAk9K3QhGgWIJbVi7oZ5NyoctFr_M3ueUXEVrLRtSN7CQ_wB6UzohD0hNhsoI3oIdaiZaXJVHeui8D5llSq4"/></div></div></header><main class="relative pt-16 bg-background min-h-screen px-space-xl py-space-lg"><div class="flex flex-col w-full">
+<div class="flex flex-col gap-space-xl max-w-max-content-width mx-auto w-full pb-space-3xl">
+<!-- ENCABEZADO DE SECCIÓN Y ACCIONES DE FIRMA -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md pt-space-xs">
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-primary-container text-on-primary-container font-label-sm uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-on-primary-container"></span>
+            Acta Oficial DIDECO
+          </span>
+<span class="font-label-md text-on-surface-variant">• Periodo de demostración 2025</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface">Control Diario y Mensual de Asistencia</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+          Registro de asistencia por sesión, firma digital de participantes y control de porcentaje para certificación municipal.
+        </p>
+</div>
+<!-- Selector de Fecha Interactivo -->
+<div class="flex items-center bg-surface-container-lowest p-1.5 rounded-xl shadow-sm gap-1 self-start lg:self-auto">
+<button aria-label="Día anterior" class="p-2 rounded-lg hover:bg-surface-container-high text-on-surface-variant transition-colors flex items-center justify-center" id="btnPrevDay" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<div class="flex items-center gap-2 px-3 py-1 bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-primary text-[18px]">event</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface leading-tight" id="currentDateLabel">Hoy: Jueves 24 de Octubre, 2024</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant leading-none">Jornada Ordinaria #48</span>
+</div>
+</div>
+<button aria-label="Día siguiente" class="p-2 rounded-lg hover:bg-surface-container-high text-on-surface-variant transition-colors flex items-center justify-center" id="btnNextDay" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- SELECTOR DE TALLER, SEDE Y FILTRO DINÁMICO -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<div class="lg:col-span-8 bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col sm:flex-row items-center gap-space-md justify-between">
+<div class="flex items-center gap-space-sm w-full sm:w-auto">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed shrink-0">
+<span class="material-symbols-outlined text-[24px]">exercise</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-label-sm uppercase tracking-wider text-on-surface-variant">Taller Activo en Sala</span>
+<select class="font-headline-md text-headline-md font-semibold text-on-surface bg-transparent focus:outline-none cursor-pointer truncate" id="tallerSelector">
+<option value="gimnasia">Gimnasia Preventiva Mayor (Sede El Tránsito - 10:00 hrs)</option>
+<option value="alfabetizacion">Alfabetización Digital (Sede San Félix - 15:30 hrs)</option>
+<option value="telar">Telar y Rescate Patrimonial Diaguita (Sede San Félix - 11:00 hrs)</option>
+<option value="huertos">Huertos Comunitarios de Secano (Alto del Carmen Central - 09:30 hrs)</option>
+</select>
+</div>
+</div>
+<div class="flex items-center gap-space-xs w-full sm:w-auto justify-end">
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-label-md">Sala Polivalente 2</span>
+<span class="px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md font-semibold">Monitor: Patricia Morales</span>
+</div>
+</div>
+<!-- Quick Action: Certificación Municipal Directa -->
+<div class="lg:col-span-4 bg-primary text-on-primary p-space-md rounded-xl shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm uppercase tracking-widest text-on-primary-container">Exigencia Bipartita DIDECO</span>
+<span class="font-headline-md font-semibold">75% Mínimo de Asistencia</span>
+<span class="font-body-sm text-surface-container-highest">Para subsidio de materiales e insumos</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">verified</span>
+</div>
+</div>
+</div>
+<!-- MÉTRICAS RÁPIDAS DE LA JORNADA (BENTO STATS) -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md">
+<!-- Métrica 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-on-surface-variant font-semibold">Asistencia de la Sesión</span>
+<span class="material-symbols-outlined text-primary text-[20px]">percent</span>
+</div>
+<div class="flex items-baseline gap-2 mt-space-sm">
+<span class="font-display-lg text-display-lg font-bold text-on-surface" id="statAttendancePercent">92%</span>
+<span class="font-label-sm text-primary font-bold">▲ +4% vs sem anterior</span>
+</div>
+<!-- Progress bar inline SVG -->
+<div class="w-full bg-surface-container-high h-1.5 rounded-full mt-space-sm overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-500" id="statProgressBar" style="width: 92%;"></div>
+</div>
+</div>
+<!-- Métrica 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-on-surface-variant font-semibold">Presentes en Sala</span>
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>
+</div>
+<div class="flex items-baseline gap-2 mt-space-sm">
+<span class="font-display-lg text-display-lg font-bold text-on-surface" id="statPresentCount">42</span>
+<span class="font-body-sm text-on-surface-variant">/ 46 inscritos</span>
+</div>
+<span class="font-label-sm text-on-surface-variant mt-space-sm">Quórum completado (Aprobado)</span>
+</div>
+<!-- Métrica 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-on-surface-variant font-semibold">Ausentes Justificados</span>
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-fixed-dim"></span>
+</div>
+<div class="flex items-baseline gap-2 mt-space-sm">
+<span class="font-display-lg text-display-lg font-bold text-tertiary" id="statJustifiedCount">4</span>
+<span class="font-body-sm text-on-surface-variant">con aviso a monitor</span>
+</div>
+<span class="font-label-sm text-tertiary-container font-semibold mt-space-sm">Salud o trámite rural</span>
+</div>
+<!-- Métrica 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-on-surface-variant font-semibold">Sin Justificar</span>
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+</div>
+<div class="flex items-baseline gap-2 mt-space-sm">
+<span class="font-display-lg text-display-lg font-bold text-on-surface" id="statUnjustifiedCount">0</span>
+<span class="font-body-sm text-on-surface-variant">vecinos</span>
+</div>
+<span class="font-label-sm text-on-surface-variant mt-space-sm">Sin riesgo de deserción</span>
+</div>
+</div>
+<!-- BANNER CONTEXTUAL INFORMATIVO CON IMAGEN DE TALLER EN ALTO DEL CARMEN -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col md:flex-row items-center gap-space-lg">
+<div class="w-full md:w-48 h-28 rounded-lg overflow-hidden shrink-0 relative">
+<img class="w-full h-full object-cover" data-alt="Senior citizens exercising in a sunlit municipal hall in Alto del Carmen surrounded by desert valley mountains, high quality administrative photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCT7HMGCWMnv1J2XCGXQ0EtSW5oiEHIYFGr-BW4yCvIRiIl0AEkZMaemAEWh2lQfFFWX-wkOwqZHWrR42qXSH9oHwNkoFHexwJcjUzMcaGUyJ95-uKknZZFHODu8QEDGY2pavBg0TtonNtKgBqNzfRUOr3XIrA9f0TzNNW8VdkqhNa-ige_41iDZKku8JQmfIp3bOSYTK97fSVmR0YNymHEbZZu8tdOAz1drHxaIDTrnSTMAsNBOGU2Qg"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md font-bold text-primary">Sede Comunitaria El Tránsito</span>
+<span class="font-label-sm text-on-surface-variant">• Ruta C-495 KM 34</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+          Este registro forma parte del <span class="font-semibold text-primary">Convenio de Salud Preventiva y Vínculos 2024</span> financiado por el Gobierno Regional de Atacama en coordinación con DIDECO Alto del Carmen. Cada asistencia impacta directamente en el kit deportivo entregado a fin de ciclo.
+        </p>
+</div>
+<div class="flex md:flex-col gap-2 shrink-0 w-full md:w-auto">
+<button class="flex-1 md:flex-none flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md transition-colors" id="btnMarkAll" type="button">
+<span class="material-symbols-outlined text-[16px]">dialpad</span>
+          Marcar Todos Presentes
+        </button>
+<button class="flex-1 md:flex-none flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md transition-colors" id="btnResetAttendance" type="button">
+<span class="material-symbols-outlined text-[16px]">restart_alt</span>
+          Reiniciar Estados
+        </button>
+</div>
+</div>
+<!-- HOJA DE ASISTENCIA / TABLA PRINCIPAL DE PARTICIPANTES -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm flex flex-col overflow-hidden">
+<!-- Cabecera de la Tarjeta -->
+<div class="px-space-lg py-space-md bg-surface-container-lowest flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-2.5 h-5 rounded-full bg-primary"></div>
+<div class="flex flex-col">
+<h2 class="font-headline-md text-headline-md text-on-surface">Lista Oficial de Vecinos Inscritos</h2>
+<span class="font-label-sm text-on-surface-variant">Sesión 14 de 24 • Fase de Evaluación Intermedia</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="relative w-64">
+<span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-outline text-[18px]">search</span>
+<input class="w-full h-9 pl-9 pr-3 rounded-lg bg-surface-container-low text-on-surface text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary/30" id="searchInput" placeholder="Filtrar por RUT o Nombre..." type="text"/>
+</div>
+<span class="font-label-md text-on-surface-variant whitespace-nowrap">Mostrando: <strong class="text-on-surface">6 de 46</strong></span>
+</div>
+</div>
+<!-- Tabla Estilizada Utilitaria sin Bordes (Background Color Shifts) -->
+<div class="overflow-x-auto">
+<table class="w-full text-left" id="attendanceTable">
+<thead>
+<tr class="bg-surface-container text-on-surface-variant font-label-md uppercase tracking-wider">
+<th class="py-3 px-space-lg font-semibold">RUT</th>
+<th class="py-3 px-space-md font-semibold">Nombre del Vecino</th>
+<th class="py-3 px-space-md font-semibold">Contacto de Emergencia</th>
+<th class="py-3 px-space-md font-semibold">Cumplimiento Acumulado</th>
+<th class="py-3 px-space-lg font-semibold text-center">Estado de Asistencia</th>
+</tr>
+</thead>
+<tbody class="font-body-md text-on-surface">
+<!-- Fila 1 -->
+<tr class="hover:bg-surface-container-low transition-colors group" data-rut="11.452.889-4">
+<td class="py-3.5 px-space-lg font-mono text-body-sm font-semibold text-on-surface">11.452.889-4</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-primary font-bold text-label-md shrink-0">
+                    EG
+                  </div>
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface leading-snug">Elena Godoy Campillay</span>
+<span class="font-label-sm text-on-surface-variant">Sector La Marquesa</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-body-sm">
+<div class="flex flex-col">
+<span class="font-medium text-on-surface">+56 9 8451 2290</span>
+<span class="font-label-sm text-on-surface-variant">Hija (Marta)</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-3">
+<div class="w-24 bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 95%;"></div>
+</div>
+<span class="font-label-md font-bold text-primary">95%</span>
+<span class="material-symbols-outlined text-[16px] text-primary" title="Habilita certificación">verified</span>
+</div>
+</td>
+<td class="py-3.5 px-space-lg">
+<div class="flex items-center justify-center gap-1.5 status-btn-group">
+<button class="status-btn active px-3 py-1.5 rounded-lg font-label-md font-bold flex items-center gap-1 bg-primary-container text-on-primary-container transition-all" data-status="presente" type="button">
+<span class="w-2 h-2 rounded-full bg-on-primary-container"></span>
+                    Presente
+                  </button>
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-error-container hover:text-on-error-container transition-all" data-status="ausente" type="button">
+                    Ausente
+                  </button>
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-tertiary-fixed hover:text-on-tertiary-container transition-all" data-status="justificado" type="button">
+                    Justificado
+                  </button>
+</div>
+</td>
+</tr>
+<!-- Fila 2 -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low transition-colors group" data-rut="9.873.120-K">
+<td class="py-3.5 px-space-lg font-mono text-body-sm font-semibold text-on-surface">9.873.120-K</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary font-bold text-label-md shrink-0">
+                    RP
+                  </div>
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface leading-snug">Raúl Páez Villalobos</span>
+<span class="font-label-sm text-on-surface-variant">Sede El Tránsito Interior</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-body-sm">
+<div class="flex flex-col">
+<span class="font-medium text-on-surface">+56 9 7311 0045</span>
+<span class="font-label-sm text-on-surface-variant">Vecino Colindante</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-3">
+<div class="w-24 bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 88%;"></div>
+</div>
+<span class="font-label-md font-bold text-primary">88%</span>
+<span class="material-symbols-outlined text-[16px] text-primary" title="Habilita certificación">verified</span>
+</div>
+</td>
+<td class="py-3.5 px-space-lg">
+<div class="flex items-center justify-center gap-1.5 status-btn-group">
+<button class="status-btn active px-3 py-1.5 rounded-lg font-label-md font-bold flex items-center gap-1 bg-primary-container text-on-primary-container transition-all" data-status="presente" type="button">
+<span class="w-2 h-2 rounded-full bg-on-primary-container"></span>
+                    Presente
+                  </button>
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-error-container hover:text-on-error-container transition-all" data-status="ausente" type="button">
+                    Ausente
+                  </button>
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-tertiary-fixed hover:text-on-tertiary-container transition-all" data-status="justificado" type="button">
+                    Justificado
+                  </button>
+</div>
+</td>
+</tr>
+<!-- Fila 3 (Justificado) -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low transition-colors group" data-rut="14.220.551-3">
+<td class="py-3.5 px-space-lg font-mono text-body-sm font-semibold text-on-surface">14.220.551-3</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary font-bold text-label-md shrink-0">
+                    MS
+                  </div>
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface leading-snug">Mireya Santander Rojas</span>
+<span class="font-label-sm text-on-surface-variant">Conay Centro</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-body-sm">
+<div class="flex flex-col">
+<span class="font-medium text-on-surface">+56 9 9012 3348</span>
+<span class="font-label-sm text-on-surface-variant">Cónyuge</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-3">
+<div class="w-24 bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-tertiary h-full rounded-full" style="width: 78%;"></div>
+</div>
+<span class="font-label-md font-bold text-tertiary">78%</span>
+<span class="material-symbols-outlined text-[16px] text-tertiary" title="En límite aceptable">info</span>
+</div>
+</td>
+<td class="py-3.5 px-space-lg">
+<div class="flex items-center justify-center gap-1.5 status-btn-group">
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-primary-container hover:text-on-primary-container transition-all" data-status="presente" type="button">
+                    Presente
+                  </button>
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-error-container hover:text-on-error-container transition-all" data-status="ausente" type="button">
+                    Ausente
+                  </button>
+<button class="status-btn active px-3 py-1.5 rounded-lg font-label-md font-bold flex items-center gap-1 bg-tertiary-fixed text-on-tertiary-fixed-variant transition-all" data-status="justificado" type="button">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+                    Justificado
+                  </button>
+</div>
+</td>
+</tr>
+<!-- Fila 4 -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low transition-colors group" data-rut="8.341.902-1">
+<td class="py-3.5 px-space-lg font-mono text-body-sm font-semibold text-on-surface">8.341.902-1</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-primary font-bold text-label-md shrink-0">
+                    CV
+                  </div>
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface leading-snug">Clotilde Valenzuela Araya</span>
+<span class="font-label-sm text-on-surface-variant">Sede San Félix</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-body-sm">
+<div class="flex flex-col">
+<span class="font-medium text-on-surface">+56 9 6554 8190</span>
+<span class="font-label-sm text-on-surface-variant">Hermana (Sonia)</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-3">
+<div class="w-24 bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 100%;"></div>
+</div>
+<span class="font-label-md font-bold text-primary">100%</span>
+<span class="material-symbols-outlined text-[16px] text-primary" title="Asistencia Perfecta">military_tech</span>
+</div>
+</td>
+<td class="py-3.5 px-space-lg">
+<div class="flex items-center justify-center gap-1.5 status-btn-group">
+<button class="status-btn active px-3 py-1.5 rounded-lg font-label-md font-bold flex items-center gap-1 bg-primary-container text-on-primary-container transition-all" data-status="presente" type="button">
+<span class="w-2 h-2 rounded-full bg-on-primary-container"></span>
+                    Presente
+                  </button>
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-error-container hover:text-on-error-container transition-all" data-status="ausente" type="button">
+                    Ausente
+                  </button>
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-tertiary-fixed hover:text-on-tertiary-container transition-all" data-status="justificado" type="button">
+                    Justificado
+                  </button>
+</div>
+</td>
+</tr>
+<!-- Fila 5 -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low transition-colors group" data-rut="12.980.114-8">
+<td class="py-3.5 px-space-lg font-mono text-body-sm font-semibold text-on-surface">12.980.114-8</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-surface-container-high flex items-center justify-center text-primary font-bold text-label-md shrink-0">
+                    GC
+                  </div>
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface leading-snug">Guillermo Cruz Bordones</span>
+<span class="font-label-sm text-on-surface-variant">Quebrada de Pinte</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-body-sm">
+<div class="flex flex-col">
+<span class="font-medium text-on-surface">+56 9 7800 2311</span>
+<span class="font-label-sm text-on-surface-variant">Posta de Salud Rural</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-3">
+<div class="w-24 bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 91%;"></div>
+</div>
+<span class="font-label-md font-bold text-primary">91%</span>
+<span class="material-symbols-outlined text-[16px] text-primary" title="Habilita certificación">verified</span>
+</div>
+</td>
+<td class="py-3.5 px-space-lg">
+<div class="flex items-center justify-center gap-1.5 status-btn-group">
+<button class="status-btn active px-3 py-1.5 rounded-lg font-label-md font-bold flex items-center gap-1 bg-primary-container text-on-primary-container transition-all" data-status="presente" type="button">
+<span class="w-2 h-2 rounded-full bg-on-primary-container"></span>
+                    Presente
+                  </button>
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-error-container hover:text-on-error-container transition-all" data-status="ausente" type="button">
+                    Ausente
+                  </button>
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-tertiary-fixed hover:text-on-tertiary-container transition-all" data-status="justificado" type="button">
+                    Justificado
+                  </button>
+</div>
+</td>
+</tr>
+<!-- Fila 6 (Ausente) -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low transition-colors group" data-rut="16.554.218-0">
+<td class="py-3.5 px-space-lg font-mono text-body-sm font-semibold text-on-surface">16.554.218-0</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-error-container flex items-center justify-center text-on-error-container font-bold text-label-md shrink-0">
+                    AH
+                  </div>
+<div class="flex flex-col">
+<span class="font-semibold text-on-surface leading-snug">Ángel Hidalgo Castillo</span>
+<span class="font-label-sm text-on-surface-variant">El Corral</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-body-sm">
+<div class="flex flex-col">
+<span class="font-medium text-on-surface">+56 9 5542 9901</span>
+<span class="font-label-sm text-on-surface-variant">Hijo (Ignacio)</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-3">
+<div class="w-24 bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-error h-full rounded-full" style="width: 71%;"></div>
+</div>
+<span class="font-label-md font-bold text-error">71%</span>
+<span class="material-symbols-outlined text-[16px] text-error" title="Alerta: Por debajo del 75%">warning</span>
+</div>
+</td>
+<td class="py-3.5 px-space-lg">
+<div class="flex items-center justify-center gap-1.5 status-btn-group">
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-primary-container hover:text-on-primary-container transition-all" data-status="presente" type="button">
+                    Presente
+                  </button>
+<button class="status-btn active px-3 py-1.5 rounded-lg font-label-md font-bold flex items-center gap-1 bg-error-container text-on-error-container transition-all" data-status="ausente" type="button">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+                    Ausente
+                  </button>
+<button class="status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-tertiary-fixed hover:text-on-tertiary-container transition-all" data-status="justificado" type="button">
+                    Justificado
+                  </button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Paginación y Resumen -->
+<div class="p-space-md bg-surface-container-low flex flex-col sm:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-label-md">
+<span>Fila seleccionable para edición de observaciones particulares</span>
+<div class="flex items-center gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-semibold disabled:opacity-50" disabled="">Anterior</button>
+<span class="px-2 text-on-surface font-bold">Página 1 de 8</span>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-semibold">Siguiente</button>
+</div>
+</div>
+</div>
+<!-- SECCIÓN DE BITÁCORA, OBSERVACIONES Y FIRMA DIGITAL DEL MONITOR -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Bitácora Pedagógica de la Sesión -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Observaciones y Desarrollo de la Sesión</h3>
+<span class="font-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">edit_note</span>
+              Requerido por Dirección
+            </span>
+</div>
+<p class="font-body-sm text-on-surface-variant">Detalle aspectos pedagógicos, incidencias físicas o compromisos adquiridos con la comunidad.</p>
+<textarea class="w-full p-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm focus:outline-none focus:ring-2 focus:ring-secondary/30 resize-none mt-space-xs" id="sessionNotes" placeholder="Ingrese las novedades de la jornada..." rows="4">Se trabajó movilidad articular completa y equilibrio dinámico con balón medicinal liviano. Participantes mostraron alta receptividad y solicitaron 10 minutos adicionales de hidratación comunitaria. Mireya Santander presentó reposo por control médico en Hospital Provincial de Vallenar.</textarea>
+</div>
+<div class="flex items-center gap-space-md pt-space-xs">
+<span class="font-label-sm text-on-surface-variant">Categorías registradas:</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-sm text-on-surface font-semibold">Movilidad Preventiva</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container font-label-sm text-on-surface font-semibold">Adulto Mayor Saludable</span>
+<span class="px-2.5 py-1 rounded-md bg-secondary-fixed text-on-secondary-fixed font-label-sm font-semibold">Control de Tensión OK</span>
+</div>
+</div>
+<!-- Validación Digital y Firma del Monitor Encargado -->
+<div class="lg:col-span-5 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Visación y Firma Digital</h3>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-primary-container text-on-primary-container font-label-sm font-bold">
+              Certificado DIDECO
+            </span>
+</div>
+<p class="font-body-sm text-on-surface-variant">
+            Vista de demostración. La firma digital y ClaveÚnica requieren integración de backend.
+          </p>
+<!-- Tarjeta de Firma -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex items-center justify-between mt-space-2xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[24px]">draw</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md font-semibold text-on-surface">Patricia Morales S.</span>
+<span class="font-label-sm text-on-surface-variant">Kinesióloga Municipal - DIDECO</span>
+<span class="font-label-sm text-primary font-mono text-[10px]">FIRMA: PENDIENTE DE BACKEND</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-tertiary text-[24px]" title="Firma simulada">pending</span>
+</div>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-sm">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+<span>Folio de libro de asistencia correlativo: <strong class="text-on-surface">N° 2024-10-0941</strong></span>
+</div>
+</div>
+</div>
+<!-- BOTONES DE PIE DE PÁGINA (CALL TO ACTION ADMINISTRATIVO) -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-md">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm">
+<span class="material-symbols-outlined text-[20px] text-primary">database</span>
+<span>Almacenamiento de demostración: <strong>localStorage del navegador</strong></span>
+</div>
+<div class="flex items-center gap-space-sm w-full sm:w-auto">
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-2 px-space-lg py-2.5 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-lg transition-all active:scale-95 shadow-sm" id="btnExportPDF" type="button">
+<span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
+          Exportar Ficha de Asistencia (PDF Membretado)
+        </button>
+<button class="flex-1 sm:flex-none flex items-center justify-center gap-2 px-space-xl py-2.5 rounded-xl bg-primary hover:bg-primary-container text-on-primary hover:text-on-primary-container font-label-lg font-bold transition-all active:scale-95 shadow-md" id="btnSaveBook" type="button">
+<span class="material-symbols-outlined text-[20px]">save</span>
+          Guardar Libro de Asistencia Oficial
+        </button>
+</div>
+</div>
+<!-- NOTIFICACIÓN TOAST FLOTANTE DINÁMICA -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none bg-surface-container-lowest text-on-surface shadow-xl p-space-md rounded-xl flex items-center gap-space-sm" id="toastNotification">
+<div class="w-8 h-8 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md font-bold text-on-surface" id="toastTitle">Libro de Asistencia Actualizado</span>
+<span class="font-body-sm text-on-surface-variant" id="toastDesc">Los registros se enviaron a la ficha del vecino exitosamente.</span>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    // Interacción de Selección de Asistencia (Presente, Ausente, Justificado)
+    const table = document.getElementById('attendanceTable');
+    const toast = document.getElementById('toastNotification');
+    const toastTitle = document.getElementById('toastTitle');
+    const toastDesc = document.getElementById('toastDesc');
+
+    function showToast(title, message) {
+      if (!toast) return;
+      toastTitle.textContent = title;
+      toastDesc.textContent = message;
+      toast.classList.remove('translate-y-20', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-20', 'opacity-0');
+      }, 3500);
+    }
+
+    if (table) {
+      table.addEventListener('click', (e) => {
+        const btn = e.target.closest('.status-btn');
+        if (!btn) return;
+
+        const group = btn.closest('.status-btn-group');
+        const row = btn.closest('tr');
+        const allBtns = group.querySelectorAll('.status-btn');
+        const status = btn.getAttribute('data-status');
+        const rut = row ? row.getAttribute('data-rut') : '';
+
+        // Reset visual styles for all buttons in row
+        allBtns.forEach(b => {
+          b.className = 'status-btn px-3 py-1.5 rounded-lg font-label-md font-medium text-on-surface-variant hover:bg-surface-container-high transition-all';
+          const dot = b.querySelector('span');
+          if (dot) dot.remove();
+        });
+
+        // Apply active style based on selected state
+        if (status === 'presente') {
+          btn.className = 'status-btn active px-3 py-1.5 rounded-lg font-label-md font-bold flex items-center gap-1 bg-primary-container text-on-primary-container transition-all';
+          btn.insertAdjacentHTML('afterbegin', '<span class="w-2 h-2 rounded-full bg-on-primary-container"></span>');
+        } else if (status === 'ausente') {
+          btn.className = 'status-btn active px-3 py-1.5 rounded-lg font-label-md font-bold flex items-center gap-1 bg-error-container text-on-error-container transition-all';
+          btn.insertAdjacentHTML('afterbegin', '<span class="w-2 h-2 rounded-full bg-error"></span>');
+        } else if (status === 'justificado') {
+          btn.className = 'status-btn active px-3 py-1.5 rounded-lg font-label-md font-bold flex items-center gap-1 bg-tertiary-fixed text-on-tertiary-fixed-variant transition-all';
+          btn.insertAdjacentHTML('afterbegin', '<span class="w-2 h-2 rounded-full bg-tertiary"></span>');
+        }
+
+        // Recalcular métricas de sala
+        recalculateMetrics();
+      });
+    }
+
+    function recalculateMetrics() {
+      const allRows = document.querySelectorAll('#attendanceTable tbody tr');
+      let presentes = 0;
+      let ausentes = 0;
+      let justificados = 0;
+
+      allRows.forEach(row => {
+        const activeBtn = row.querySelector('.status-btn.active');
+        if (!activeBtn) return;
+        const st = activeBtn.getAttribute('data-status');
+        if (st === 'presente') presentes++;
+        else if (st === 'ausente') ausentes++;
+        else if (st === 'justificado') justificados++;
+      });
+
+      const total = allRows.length;
+      const pct = total > 0 ? Math.round((presentes / total) * 100) : 0;
+
+      const statPercent = document.getElementById('statAttendancePercent');
+      const statBar = document.getElementById('statProgressBar');
+      const statPres = document.getElementById('statPresentCount');
+      const statJust = document.getElementById('statJustifiedCount');
+      const statUnjust = document.getElementById('statUnjustifiedCount');
+
+      if (statPercent) statPercent.textContent = pct + '%';
+      if (statBar) statBar.style.width = pct + '%';
+      if (statPres) statPres.textContent = presentes.toString();
+      if (statJust) statJust.textContent = justificados.toString();
+      if (statUnjust) statUnjust.textContent = ausentes.toString();
+    }
+
+    // Filtro de búsqueda en tiempo real
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase();
+        const rows = document.querySelectorAll('#attendanceTable tbody tr');
+        rows.forEach(row => {
+          const text = row.textContent.toLowerCase();
+          row.style.display = text.includes(query) ? '' : 'none';
+        });
+      });
+    }
+
+    // Botones de acción principales
+    const btnSaveBook = document.getElementById('btnSaveBook');
+    if (btnSaveBook) {
+      btnSaveBook.addEventListener('click', () => {
+        btnSaveBook.classList.add('scale-95');
+        setTimeout(() => btnSaveBook.classList.remove('scale-95'), 150);
+        showToast('¡Libro Oficial Registrado!', 'La sesión del 24 de Octubre ha quedado firmada por Patricia Morales y auditada por Juan Pérez (DIDECO).');
+      });
+    }
+
+    const btnExportPDF = document.getElementById('btnExportPDF');
+    if (btnExportPDF) {
+      btnExportPDF.addEventListener('click', () => {
+        showToast('Exportación pendiente de backend', 'El prototipo no genera documentos oficiales ni aplica sellos municipales.');
+      });
+    }
+
+    // Selector de Días interactivo
+    const dates = [
+      'Miércoles 23 de Octubre, 2024',
+      'Hoy: Jueves 24 de Octubre, 2024',
+      'Viernes 25 de Octubre, 2024'
+    ];
+    let currentDateIdx = 1;
+    const dateLabel = document.getElementById('currentDateLabel');
+    const btnPrevDay = document.getElementById('btnPrevDay');
+    const btnNextDay = document.getElementById('btnNextDay');
+
+    if (btnPrevDay && btnNextDay && dateLabel) {
+      btnPrevDay.addEventListener('click', () => {
+        if (currentDateIdx > 0) {
+          currentDateIdx--;
+          dateLabel.textContent = dates[currentDateIdx];
+          showToast('Fecha Modificada', 'Cargando registros históricos de la sesión anterior...');
+        }
+      });
+      btnNextDay.addEventListener('click', () => {
+        if (currentDateIdx < dates.length - 1) {
+          currentDateIdx++;
+          dateLabel.textContent = dates[currentDateIdx];
+          showToast('Fecha Modificada', 'Cargando pauta programada para la jornada posterior...');
+        }
+      });
+    }
+  })();
+</script><link href="assets/css/mvp.css" rel="stylesheet"/><script type="module" src="assets/js/app.js"></script></main></div></body></html>

@@ -1,0 +1,14 @@
+{
+  "name": "centro-comunitario-alto-del-carmen-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "test": "node --test tests/*.test.js",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"tertiary-fixed-dim":"#ffb77d","tertiary":"#5a2e00","background":"#f8f9fa","surface-container-highest":"#e1e3e4","surface-container-lowest":"#ffffff","primary-container":"#2d5a27","tertiary-container":"#7c4100","on-tertiary":"#ffffff","on-primary-fixed":"#002201","inverse-primary":"#a1d494","surface-container-high":"#e7e8e9","error-container":"#ffdad6","primary":"#154212","on-primary":"#ffffff","outline":"#72796e","secondary-fixed-dim":"#b6c4ff","tertiary-fixed":"#ffdcc3","on-primary-container":"#9dd090","on-tertiary-fixed-variant":"#6e3900","secondary-container":"#8fa7fe","surface-container":"#edeeef","on-secondary-container":"#1d3989","on-primary-fixed-variant":"#23501e","on-secondary-fixed":"#00164e","surface":"#f8f9fa","on-background":"#191c1d","secondary":"#4059aa","primary-fixed":"#bcf0ae","on-secondary":"#ffffff","surface-bright":"#f8f9fa","primary-fixed-dim":"#a1d494","on-error-container":"#93000a","on-tertiary-fixed":"#2f1500","inverse-surface":"#2e3132","surface-tint":"#3b6934","error":"#ba1a1a","on-surface":"#191c1d","surface-container-low":"#f3f4f5","inverse-on-surface":"#f0f1f2","secondary-fixed":"#dce1ff","on-tertiary-container":"#ffb273","surface-dim":"#d9dadb","on-surface-variant":"#42493e","on-error":"#ffffff","on-secondary-fixed-variant":"#264191","surface-variant":"#e1e3e4","outline-variant":"#c2c9bb"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"sidebar-collapsed-width":"4.5rem","max-content-width":"90rem","space-sm":"0.75rem","space-2xl":"2.5rem","space-xl":"2rem","space-3xl":"3rem","sidebar-width":"16.25rem","space-2xs":"0.25rem","space-md":"1rem","margin-desktop":"2rem","gutter-desktop":"1.5rem","space-xs":"0.5rem","space-lg":"1.5rem"},fontFamily:{"display-lg":["plusJakartaSans"],"body-sm":["plusJakartaSans"],"headline-md":["plusJakartaSans"],"body-md":["plusJakartaSans"],"label-sm":["plusJakartaSans"],"body-lg":["plusJakartaSans"],"headline-xl":["plusJakartaSans"],"headline-lg":["plusJakartaSans"],"label-md":["plusJakartaSans"],"label-lg":["plusJakartaSans"]},fontSize:{"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"18px","letterSpacing":"0.005em","fontWeight":"400"}],"headline-md":["18px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-xl":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface min-h-screen"><aside class="fixed left-0 top-0 h-full w-sidebar-width bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between overflow-y-auto"><div class="flex flex-col"><div class="p-space-lg flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="Logo Araucaria Alto del Carmen" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUfF1F38ywhQfQGv1GwgfNtQffeBdmOI3ZNXzgfPOOU0C3SY48kOA6NkAchEDvc_twVzJRjUUal2EsB5iO6GrOvlHdmaLFZQ9AwkAH33bmecWEMn366PS_MQF0RMB0nSiA--0Sx7oI3XbXupGRVLsDOKcyWzRKMUzCbgaQmBzZohWk8Kl3iKjddPGqmU8kBs8vXg5gwzMH4RzksNGloGBjsBZ8mv7D2flnUN5v5G57AnWS25u5c_5NZw"/><div class="flex flex-col"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">Alto del Carmen</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Panel de Gestión</span></div></div><div class="h-px w-full bg-surface-container-high my-space-xs"></div><div class="flex items-center gap-space-sm p-space-xs rounded-xl bg-surface-container-low"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VRhM59p_43__zkU9uBtpTTklRwlYYhRYmngHmG1S-TKDLEIZrTql80GoXTonEikyXbWEiavVfHm2oJLgChqyB65Sak4xiR-XwkXj2V2Whfe6jKYjbRd9ZtGiI6hBQYhEEKYSpSf3DCR8HgZEyurzmpcxBcL6x-30UR5bjwAk9K3QhGgWIJbVi7oZ5NyoctFr_M3ueUXEVrLRtSN7CQ_wB6UzohD0hNhsoI3oIdaiZaXJVHeui8D5llSq4"/><div class="flex flex-col overflow-hidden"><span class="font-label-md text-label-md text-on-surface truncate font-semibold">Juan Pérez</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Admin DIDECO</span></div></div></div><nav class="flex flex-col gap-space-2xs px-space-md mt-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-bold"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="dashboard" href="../dashboard.html"><span class="material-symbols-outlined text-[20px]">space_dashboard</span><span class="font-label-lg text-label-lg">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="talleres" href="../talleres.html"><span class="material-symbols-outlined text-[20px]">school</span><span class="font-label-lg text-label-lg">Gestión de Talleres</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="inscripciones" href="../inscripciones.html"><span class="material-symbols-outlined text-[20px]">how_to_reg</span><span class="font-label-lg text-label-lg">Inscripción Vecinos</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="asistencia" href="../asistencia.html"><span class="material-symbols-outlined text-[20px]">fact_check</span><span class="font-label-lg text-label-lg">Control Asistencia</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl transition-colors bg-primary-container text-on-primary-container font-bold" data-path="inventario" href="../inventario.html"><span class="material-symbols-outlined text-[20px]">inventory_2</span><span class="font-label-lg text-label-lg">Inventario y Equipos</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="reportes" href="../reportes.html"><span class="material-symbols-outlined text-[20px]">analytics</span><span class="font-label-lg text-label-lg">Reportes y Dirección</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="configuracion" href="../configuracion.html"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-label-lg text-label-lg">Configuración</span></a></nav></div><div class="p-space-lg"><div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col gap-space-2xs"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Centro Comunitario</span><span class="font-body-sm text-body-sm text-on-surface font-semibold">Alto del Carmen</span></div></div></aside><div class="pl-sidebar-width"><header class="fixed top-0 left-sidebar-width right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-xl"><div class="flex items-center gap-space-md flex-1 max-w-xl"><div class="relative w-full"><span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span><input class="w-full h-10 pl-10 pr-space-md rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary/20" placeholder="Buscar vecinos, fichas, talleres o solicitudes..." type="search"/></div><div class="flex items-center gap-space-xs rounded-xl bg-surface-container-low px-space-sm py-1.5 shrink-0"><span class="material-symbols-outlined text-outline text-[18px]">location_on</span><select class="bg-transparent text-on-surface font-label-md text-label-md focus:outline-none pr-space-xs"><option value="all">Todo el Comunal</option><option value="san-felix">Sede San Félix</option><option value="el-transito">Sede El Tránsito</option></select></div></div><div class="flex items-center gap-space-md"><button aria-label="Notificaciones" class="relative p-space-xs rounded-xl hover:bg-surface-container-high text-on-surface-variant transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 w-4 h-4 rounded-full bg-error text-on-error font-label-sm text-[10px] flex items-center justify-center font-bold">3</span></button><div class="h-6 w-px bg-surface-container-high"></div><div class="flex items-center gap-space-sm"><div class="text-right hidden sm:flex sm:flex-col"><span class="font-label-md text-label-md font-semibold text-on-surface leading-tight">Juan Pérez</span><span class="font-label-sm text-label-sm text-on-surface-variant">Administrador Municipal</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VRhM59p_43__zkU9uBtpTTklRwlYYhRYmngHmG1S-TKDLEIZrTql80GoXTonEikyXbWEiavVfHm2oJLgChqyB65Sak4xiR-XwkXj2V2Whfe6jKYjbRd9ZtGiI6hBQYhEEKYSpSf3DCR8HgZEyurzmpcxBcL6x-30UR5bjwAk9K3QhGgWIJbVi7oZ5NyoctFr_M3ueUXEVrLRtSN7CQ_wB6UzohD0hNhsoI3oIdaiZaXJVHeui8D5llSq4"/></div></div></header><main class="relative pt-16 bg-background min-h-screen px-space-xl py-space-lg"><div class="flex flex-col w-full">
+<!-- Script para sincronizar estado activo en la barra lateral del shell -->
+<script>
+    (function () {
+      const links = document.querySelectorAll('aside nav a');
+      links.forEach((link) => {
+        if (link.getAttribute('data-path') === 'inventario') {
+          link.classList.remove('text-on-surface-variant', 'hover:bg-surface-container-high', 'hover:text-on-surface');
+          link.classList.add('bg-primary-container', 'text-on-primary-container', 'font-bold');
+        } else {
+          link.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-bold');
+          link.classList.add('text-on-surface-variant');
+        }
+      });
+    })();
+  </script>
+<!-- 1. BREADCRUMBS Y BARRA DE ESTADO SUPERIOR -->
+<div class="flex flex-wrap items-center justify-between gap-space-md mb-space-lg">
+<nav aria-label="Ruta de navegación" class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="../inventario.html">
+<span class="material-symbols-outlined text-[18px]">inventory_2</span>
+<span>Inventario y Equipos</span>
+</a>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="../inventario.html">Actas de Custodia</a>
+<span class="material-symbols-outlined text-[16px] text-outline">chevron_right</span>
+<span class="text-on-surface font-bold">Nueva Acta Folio ACT-2024-089</span>
+</nav>
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="uppercase tracking-wider">Borrador en Preparación</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest text-primary-container font-label-sm text-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">cloud_done</span>
+<span>Sincronizado Servidor DIDECO</span>
+</div>
+</div>
+</div>
+<!-- 2. CABECERA INSTITUCIONAL DEL DOCUMENTO -->
+<div class="bg-surface-container-lowest rounded-xl p-space-xl shadow-sm mb-space-xl relative overflow-hidden">
+<!-- Acento decorativo sutil en gradiente municipal -->
+<div class="absolute -right-16 -top-16 w-64 h-64 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+<div class="flex flex-col lg:flex-row lg:items-start justify-between gap-space-lg relative z-10">
+<div class="flex items-start gap-space-md max-w-4xl">
+<div class="w-12 h-12 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[28px]">assignment_turned_in</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex flex-wrap items-center gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-widest px-2.5 py-0.5 rounded bg-surface-container text-on-surface-variant font-bold">
+              Dirección de Desarrollo Comunitario (DIDECO)
+            </span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider px-2.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-bold">
+              Folio: ACT-2024-089
+            </span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight mt-1">
+            Acta Oficial de Entrega y Custodia Temporal de Bienes Comunales
+          </h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Instrumento legal y administrativo para la asignación de equipamiento tecnológico, herramientas y materiales a monitores y sedes comunitarias conforme al Reglamento de Bienes Municipales de Alto del Carmen.
+          </p>
+</div>
+</div>
+<!-- Acciones de Cabecera -->
+<div class="flex flex-wrap items-center gap-space-xs shrink-0 self-end lg:self-start">
+<button class="h-10 px-space-md rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-label-lg text-label-lg flex items-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">save</span>
+<span>Guardar Borrador</span>
+</button>
+<button class="h-10 px-space-md rounded-xl bg-surface-container-low hover:bg-surface-container text-secondary font-label-lg text-label-lg flex items-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+<span>Vista Previa PDF</span>
+</button>
+<button class="h-10 px-space-lg rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center gap-2 shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">draw</span>
+<span>Firmar y Emitir Acta</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CONTENIDO PRINCIPAL: 2 COLUMNAS (ÁREA DOCUMENTAL + PANEL LATERAL LOGÍSTICO) -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-xl">
+<!-- COLUMNA PRINCIPAL (8 de 12) -->
+<div class="xl:col-span-8 flex flex-col gap-space-xl">
+<!-- 3. SECCIÓN: DATOS DEL RECEPTOR Y ASIGNACIÓN -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Tarjeta 1: Monitor / Funcionario Responsable -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-space-sm mb-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">person_pin</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Funcionario / Monitor Receptor</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase px-2 py-0.5 rounded bg-surface-container-low text-primary-container font-bold">
+                Verificado
+              </span>
+</div>
+<div class="flex items-center gap-space-md mb-space-md p-space-xs rounded-xl bg-surface-container-low">
+<img class="w-12 h-12 rounded-lg object-cover shadow-sm" data-alt="Retrato fotográfico institucional de Elena Morales Araya, monitora de alfarería con vestimenta profesional en taller cultural diaguita con tonos tierra e iluminación suave natural de Alto del Carmen." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_PeskdUksxVpzigFo2ASw57MqOIFiJ-Vz5BQhIDgjDz7rTp2QB88kRIsWl17Nqsafg52_HIuGabHcbDnbF95jQf7IUOUPEbhhEAxZBu8jT22qERwVEkU27lT83-L38y63d7G8cU4BQa1cRdjUGLue_qzDsEDxptuFtVPlf9V77kxTDEDZSh_0FaisCXcAwEpqHh3T4pQqgtFOWKiVdIEIHnnUObtjjzXpqgF3bLNsYGJVh-RKXK6BsA"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg font-bold text-on-surface truncate">Elena Morales Araya</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Monitora Taller Alfarería Diaguita y Esmaltado</span>
+</div>
+</div>
+<dl class="space-y-space-xs text-body-sm font-body-sm">
+<div class="flex justify-between py-1">
+<dt class="text-on-surface-variant">RUT:</dt>
+<dd class="font-bold text-on-surface">12.845.690-3</dd>
+</div>
+<div class="flex justify-between py-1">
+<dt class="text-on-surface-variant">Sede de Destino:</dt>
+<dd class="font-semibold text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">location_on</span>
+                  Sede San Félix (Sala de Oficios)
+                </dd>
+</div>
+<div class="flex justify-between py-1">
+<dt class="text-on-surface-variant">Teléfono Móvil:</dt>
+<dd class="text-on-surface">+56 9 8412 9901</dd>
+</div>
+<div class="flex justify-between py-1">
+<dt class="text-on-surface-variant">Decreto / Convenio:</dt>
+<dd class="font-semibold text-secondary">Honorarios N° 1.402 DIDECO</dd>
+</div>
+</dl>
+</div>
+<div class="mt-space-md pt-space-xs flex justify-end">
+<button class="text-secondary font-label-sm text-label-sm hover:underline flex items-center gap-1" type="button">
+<span>Cambiar receptor</span>
+<span class="material-symbols-outlined text-[14px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Tarjeta 2: Datos de la Asignación y Fechas -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-space-sm mb-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">calendar_clock</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Datos de Asignación y Plazos</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-bold">
+                Semestre Primavera
+              </span>
+</div>
+<dl class="space-y-space-xs text-body-sm font-body-sm">
+<div class="p-space-xs rounded-lg bg-surface-container-low mb-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Modalidad de Custodia</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">Préstamo Temporal por Ciclo Formativo Comunal</span>
+</div>
+<div class="flex justify-between py-1">
+<dt class="text-on-surface-variant">Fecha de Entrega Física:</dt>
+<dd class="font-bold text-on-surface">24 de Octubre, 2024</dd>
+</div>
+<div class="flex justify-between py-1">
+<dt class="text-on-surface-variant">Fecha Límite Devolución:</dt>
+<dd class="font-bold text-error flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">event_busy</span>
+                  15 de Diciembre, 2024 (52 días)
+                </dd>
+</div>
+<div class="flex justify-between py-1">
+<dt class="text-on-surface-variant">Taller Vinculado:</dt>
+<dd class="font-semibold text-primary">TLL-SF-01 (Alfarería Ancestral)</dd>
+</div>
+<div class="flex justify-between py-1">
+<dt class="text-on-surface-variant">Inspección intermedia:</dt>
+<dd class="text-on-surface">18 de Noviembre, 2024</dd>
+</div>
+</dl>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-body-sm">
+<span class="text-on-surface-variant font-label-sm text-label-sm">Días hábiles autorizados: 38 días</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface font-semibold">Uso en Recinto Exclusivo</span>
+</div>
+</div>
+</div>
+<!-- 4. SECCIÓN: INVENTARIO DE BIENES Y EQUIPOS A ENTREGAR (TABLA INTERACTIVA) -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<!-- Header de la tabla -->
+<div class="p-space-lg flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">format_list_bulleted</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Bienes, Equipos e Insumos en Custodia</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              4 elementos consignados. Valide número de serie y estado antes del visado definitivo.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="h-9 px-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md flex items-center gap-1.5 transition-all" type="button">
+<span class="material-symbols-outlined text-[17px]">barcode_scanner</span>
+<span>Escanear QR/Código</span>
+</button>
+<button class="h-9 px-space-md rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center gap-1.5 shadow-sm transition-all hover:opacity-95" type="button">
+<span class="material-symbols-outlined text-[17px]">add_circle</span>
+<span>+ Agregar Equipo o Insumo</span>
+</button>
+</div>
+</div>
+<!-- Tabla -->
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-md text-label-md">
+<th class="py-space-sm px-space-md font-bold uppercase tracking-wider">Cód. / Identificador</th>
+<th class="py-space-sm px-space-md font-bold uppercase tracking-wider">Descripción del Bien &amp; Accesorios</th>
+<th class="py-space-sm px-space-sm font-bold uppercase tracking-wider text-center">Tipo / Categoría</th>
+<th class="py-space-sm px-space-sm font-bold uppercase tracking-wider text-center">Estado Físico</th>
+<th class="py-space-sm px-space-sm font-bold uppercase tracking-wider text-center">Cantidad</th>
+<th class="py-space-sm px-space-md font-bold uppercase tracking-wider text-right">Valor en Libros</th>
+<th class="py-space-sm px-space-sm text-center">Acción</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container text-body-sm font-body-sm text-on-surface">
+<!-- Item 1: Proyector Epson -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-sm px-space-md align-top">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-secondary">EQ-PROY-01</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">S/N: 47B90119-AC</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md align-top">
+<div class="flex flex-col">
+<span class="font-bold text-on-surface">Proyector Multimedia Epson PowerLite X49</span>
+<span class="text-body-sm text-on-surface-variant mt-0.5">
+                      Accesorios: Bolso acolchado original, cable HDMI 3m, cable de poder y control remoto con baterías.
+                    </span>
+</div>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-label-sm font-semibold">
+                    Activo Tecnológico
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[#ECFDF5] text-[#065F46] font-label-sm text-label-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#059669]"></span>
+                    Operativo 100%
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center font-bold text-on-surface">
+                  1 un.
+                </td>
+<td class="py-space-sm px-space-md align-top text-right font-bold text-on-surface">
+                  $420.000 CLP
+                </td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<button aria-label="Opciones ítem" class="p-1 text-on-surface-variant hover:text-error transition-colors rounded" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_outline</span>
+</button>
+</td>
+</tr>
+<!-- Item 2: Horno Eléctrico Cerámico -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-sm px-space-md align-top">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-secondary">EQ-CER-01</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Reg. PAT-2023-01</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md align-top">
+<div class="flex flex-col">
+<span class="font-bold text-on-surface">Horno Eléctrico Cerámico Profesional 40L (1250°C)</span>
+<span class="text-body-sm text-on-surface-variant mt-0.5">
+                      Accesorios: Termocupla digital calibrada, 3 bandejas refractarias circulares, 12 postes de soporte cerámico.
+                    </span>
+</div>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-label-sm font-semibold">
+                    Maquinaria Taller
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[#ECFDF5] text-[#065F46] font-label-sm text-label-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#059669]"></span>
+                    Inspeccionado SEC
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center font-bold text-on-surface">
+                  1 un.
+                </td>
+<td class="py-space-sm px-space-md align-top text-right font-bold text-on-surface">
+                  $1.850.000 CLP
+                </td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<button aria-label="Opciones ítem" class="p-1 text-on-surface-variant hover:text-error transition-colors rounded" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_outline</span>
+</button>
+</td>
+</tr>
+<!-- Item 3: Insumo Terracota Consumible -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-sm px-space-md align-top">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-secondary">MAT-CER-04</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Lote: LT-2024-10</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md align-top">
+<div class="flex flex-col">
+<span class="font-bold text-on-surface">Pasta Cerámica Terracota Local Preparada</span>
+<span class="text-body-sm text-on-surface-variant mt-0.5">
+                      Arcilla purificada para modelado artesanal. Entrega sellada en sacos plásticos herméticos de 25 kg c/u.
+                    </span>
+</div>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<span class="px-2 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold">
+                    Consumible Taller
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                    Nuevo en Bodega
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center font-bold text-on-surface">
+                  4 sacos (100kg)
+                </td>
+<td class="py-space-sm px-space-md align-top text-right font-bold text-on-surface">
+                  $85.000 CLP
+                </td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<button aria-label="Opciones ítem" class="p-1 text-on-surface-variant hover:text-error transition-colors rounded" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_outline</span>
+</button>
+</td>
+</tr>
+<!-- Item 4: Herramientas de Modelado -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-space-sm px-space-md align-top">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-secondary">HERR-ALF-08</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Kit Estudiantes</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md align-top">
+<div class="flex flex-col">
+<span class="font-bold text-on-surface">Set de Herramientas de Modelado y Desbastadores</span>
+<span class="text-body-sm text-on-surface-variant mt-0.5">
+                      Estuches de lona reforzada con 12 piezas de madera de boj, espátulas de alambre y esponja natural c/u.
+                    </span>
+</div>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm text-label-sm font-semibold">
+                    Herramienta Menor
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[#ECFDF5] text-[#065F46] font-label-sm text-label-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-[#059669]"></span>
+                    Excelente Estado
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm align-top text-center font-bold text-on-surface">
+                  4 sets
+                </td>
+<td class="py-space-sm px-space-md align-top text-right font-bold text-on-surface">
+                  $60.000 CLP
+                </td>
+<td class="py-space-sm px-space-sm align-top text-center">
+<button aria-label="Opciones ítem" class="p-1 text-on-surface-variant hover:text-error transition-colors rounded" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_outline</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Barra de Totales y Resumen Contable -->
+<div class="p-space-md bg-surface-container-low flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md text-on-surface-variant font-label-md text-label-md">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary">verified</span>
+<strong>2 Activos Fijos</strong>
+</span>
+<span class="text-outline">•</span>
+<span><strong>1 Insumo Consumible</strong></span>
+<span class="text-outline">•</span>
+<span><strong>1 Kit Herramientas</strong></span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant font-bold">Total Avalúo en Custodia:</span>
+<span class="font-headline-lg text-headline-lg font-bold text-primary">$2.415.000 CLP</span>
+</div>
+</div>
+</div>
+<!-- 5. SECCIÓN: CLÁUSULAS Y DECLARACIÓN DE RESPONSABILIDAD MUNICIPAL -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">gavel</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Cláusulas de Custodia y Obligaciones del Depositario</h2>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low text-body-sm font-body-sm text-on-surface-variant space-y-space-xs leading-relaxed">
+<div class="flex items-start gap-2">
+<span class="font-bold text-primary shrink-0">1. Destinación Exclusiva:</span>
+<p>Los bienes detallados en esta acta están destinados única y exclusivamente a la ejecución del taller comunitario autorizado en Sede San Félix, prohibiéndose su traslado a domicilios particulares o utilización con fines de lucro.</p>
+</div>
+<div class="flex items-start gap-2">
+<span class="font-bold text-primary shrink-0">2. Notificación de Incidentes:</span>
+<p>Cualquier desperfecto técnico fortuito, falla eléctrica, daño accidental o sustracción de los implementos deberá ser comunicado en un plazo máximo de <strong>24 horas hábiles</strong> a la Dirección DIDECO y Carabineros de Retén San Félix cuando corresponda.</p>
+</div>
+<div class="flex items-start gap-2">
+<span class="font-bold text-primary shrink-0">3. Devolución Conforme:</span>
+<p>Al término del ciclo formativo (15/12/2024), el monitor responderá materialmente por la restitución completa de los equipos y herramientas en estado equivalente al consignado en esta entrega.</p>
+</div>
+</div>
+<div class="mt-space-md p-space-sm rounded-xl bg-primary-container/10 flex items-start gap-space-sm">
+<input checked="" class="mt-1 w-4 h-4 text-primary rounded focus:ring-primary" id="declaracion_conforme" type="checkbox"/>
+<label class="font-label-md text-label-md text-on-surface font-semibold cursor-pointer select-none" for="declaracion_conforme">
+            El receptor declara expresamente haber recibido los bienes detallados en óptimas condiciones de operación, con sus números de serie legibles y con la totalidad de los accesorios requeridos para su correcta función.
+          </label>
+</div>
+</div>
+<!-- 6. SECCIÓN: BLOQUE DE FIRMAS Y VALIDACIÓN DIGITAL -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between mb-space-md pb-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">policy</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Validación de Entrega y Recepción Digital</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ley 19.799 sobre Documentos Electrónicos</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Lado Izquierdo: Entrega Conforme DIDECO (Ya firmado / listo) -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase font-bold text-primary tracking-wider">
+                  Entrega Conforme (DIDECO Municipal)
+                </span>
+<span class="inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-full bg-[#ECFDF5] text-[#065F46]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#059669]"></span>
+                  Firmado ClaveÚnica
+                </span>
+</div>
+<!-- Simulación de Sello Digital Firmado -->
+<div class="p-space-sm rounded-lg bg-surface-container-lowest mb-space-sm flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">verified_user</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">Juan Pérez Valenzuela</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Admin. DIDECO &amp; Custodia Comunal</span>
+<span class="font-label-sm text-label-sm text-outline">RUT: 14.221.804-K • Hash: c7a9e2f...</span>
+</div>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant italic">
+                Validado con fecha 24/10/2024 a las 10:14 hrs desde terminal municipal Sede Central.
+              </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-body-sm">
+<span class="text-primary font-bold flex items-center gap-1 font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[15px]">check_circle</span>
+                Autorización Vigente
+              </span>
+<button class="text-secondary hover:underline font-label-sm text-label-sm" type="button">Ver Certificado</button>
+</div>
+</div>
+<!-- Lado Derecho: Recepción Conforme Monitor (Pendiente de acción en terreno) -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase font-bold text-on-surface tracking-wider">
+                  Recepción Conforme (Monitor / Receptor)
+                </span>
+<span class="inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+                  Pendiente de Firma
+                </span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest mb-space-sm flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary/10 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">pending_actions</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">Elena Morales Araya</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Monitora Comunitaria Taller Alfarería</span>
+<span class="font-label-sm text-label-sm text-outline">RUT: 12.845.690-3</span>
+</div>
+</div>
+<!-- Opciones interactivas de firma -->
+<div class="flex flex-col gap-2 mt-2">
+<button class="w-full py-2 px-3 rounded-lg bg-secondary text-on-secondary font-label-sm text-label-sm font-bold flex items-center justify-center gap-2 hover:bg-secondary/90 transition-all" type="button">
+<span class="material-symbols-outlined text-[16px]">send_to_mobile</span>
+<span>Solicitar Firma por SMS / WhatsApp</span>
+</button>
+<button class="w-full py-2 px-3 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-sm text-label-sm font-bold flex items-center justify-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[16px]">fingerprint</span>
+<span>Registrar Firma en Pantalla Táctil / Tótem</span>
+</button>
+</div>
+</div>
+<div class="mt-space-sm pt-space-xs text-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Se enviará copia digital en PDF al receptor automáticamente.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- COLUMNA LATERAL (4 de 12): RESUMEN LOGÍSTICO Y CONTEXTO OPERACIONAL -->
+<div class="xl:col-span-4 flex flex-col gap-space-lg">
+<!-- Ficha 1: Coordinación de Traslado y Logística Municipal -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center gap-2 mb-space-md">
+<span class="material-symbols-outlined text-secondary text-[22px]">local_shipping</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Despacho y Traslado Comunal</h3>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low mb-space-md">
+<div class="flex items-center justify-between text-body-sm font-body-sm mb-1">
+<span class="text-on-surface-variant">Ruta Asignada:</span>
+<span class="font-bold text-on-surface">Casa Central → Sede San Félix</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm mb-1">
+<span class="text-on-surface-variant">Vehículo Municipal:</span>
+<span class="font-semibold text-on-surface">Furgón DIDECO #4 (Patente LK-8921)</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Conductor Autorizado:</span>
+<span class="text-on-surface">Manuel Godoy (Operaciones)</span>
+</div>
+</div>
+<!-- Indicador de Ruta y Tiempos -->
+<div class="space-y-space-xs text-body-sm font-body-sm mb-space-md">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span>Salida Bodega Central: 11:00 hrs</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-outline"></span>
+<span>Tiempo estimado en ruta: 45 min</span>
+</div>
+<div class="flex items-center gap-2 text-primary font-semibold">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>Recepción e instalación: 12:00 hrs</span>
+</div>
+</div>
+<div class="p-space-xs rounded-lg bg-surface-container flex items-center gap-2 text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-secondary">info</span>
+<span>Requiere apoyo de personal auxiliar para descarga de horno cerámico (45 kg).</span>
+</div>
+</div>
+<!-- Ficha 2: Historial de Custodia del Monitor -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">history_edu</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Historial de Custodia</h3>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-[#ECFDF5] text-[#065F46] font-label-sm text-label-sm font-bold">
+            100% Conforme
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+          Registro de actas anteriores asignadas a Elena Morales en periodos 2023–2024:
+        </p>
+<div class="space-y-space-xs">
+<!-- Acta previa 1 -->
+<div class="p-space-xs rounded-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">ACT-2024-022 (Invierno)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Torno Alfarero + Set gubias</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">task_alt</span>
+              Devuelto
+            </span>
+</div>
+<!-- Acta previa 2 -->
+<div class="p-space-xs rounded-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">ACT-2023-108 (Primavera)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Proyector Epson + Telón mural</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">task_alt</span>
+              Devuelto
+            </span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Índice de cuidado y restitución:</span>
+<span class="font-bold text-primary">Excelente (Sin mermas)</span>
+</div>
+</div>
+</div>
+<!-- Ficha 3: Soporte y Contacto Bodega Central -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center gap-2 mb-space-sm">
+<span class="material-symbols-outlined text-outline text-[20px]">warehouse</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Bodega Central &amp; Soporte DIDECO</h3>
+</div>
+<div class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<p>
+<strong class="text-on-surface">Ubicación:</strong> Sede Central Municipalidad Alto del Carmen, Sector Patio Técnico.
+          </p>
+<p>
+<strong class="text-on-surface">Encargado de Bodega:</strong> Hernán Vilches Robledo
+          </p>
+<p>
+<strong class="text-on-surface">Contacto de Urgencias:</strong> anexo 402 / bodega.dideco@munialtodelcarmen.cl
+          </p>
+</div>
+<div class="mt-space-md p-space-sm rounded-xl bg-surface-container-low flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Horario de Devoluciones:</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Lun a Vie 08:30 - 16:30 hrs</span>
+</div>
+</div>
+<!-- Mini Tarjeta de Acción Rápida -->
+<div class="bg-primary-container text-on-primary-container rounded-xl p-space-lg shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[24px]">qr_code_2</span>
+<h4 class="font-headline-md text-headline-md font-bold">Generar Rótulos QR de Custodia</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container/90 leading-relaxed">
+          Imprima los adhesivos de trazabilidad municipal para pegar directamente sobre los activos asignados a Sede San Félix.
+        </p>
+<button class="w-full py-2 px-3 rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md font-bold flex items-center justify-center gap-2 hover:bg-surface-container transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">print</span>
+<span>Imprimir 4 Etiquetas Adhesivas</span>
+</button>
+</div>
+</div>
+</div>
+<!-- PIE DE FORMULARIO CONTEXTUAL FIJO / ACCIÓN MUNICIPAL -->
+<div class="mt-space-xl p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">shield</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+        Documento oficial indexado al Expediente Electrónico Municipal N° EXP-2024-DIDECO-881.
+      </span>
+</div>
+<div class="flex items-center gap-space-sm w-full sm:w-auto justify-end">
+<button class="h-10 px-space-md rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-label-lg text-label-lg transition-all" type="button">
+        Cancelar Operación
+      </button>
+<button class="h-10 px-space-lg rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center gap-2 shadow-sm transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">check</span>
+<span>Finalizar y Enviar a Firma</span>
+</button>
+</div>
+</div>
+</div></main></div></body></html>

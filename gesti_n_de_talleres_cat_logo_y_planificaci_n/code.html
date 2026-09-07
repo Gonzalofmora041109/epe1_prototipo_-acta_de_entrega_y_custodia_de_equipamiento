@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"tertiary-fixed-dim":"#ffb77d","tertiary":"#5a2e00","background":"#f8f9fa","surface-container-highest":"#e1e3e4","surface-container-lowest":"#ffffff","primary-container":"#2d5a27","tertiary-container":"#7c4100","on-tertiary":"#ffffff","on-primary-fixed":"#002201","inverse-primary":"#a1d494","surface-container-high":"#e7e8e9","error-container":"#ffdad6","primary":"#154212","on-primary":"#ffffff","outline":"#72796e","secondary-fixed-dim":"#b6c4ff","tertiary-fixed":"#ffdcc3","on-primary-container":"#9dd090","on-tertiary-fixed-variant":"#6e3900","secondary-container":"#8fa7fe","surface-container":"#edeeef","on-secondary-container":"#1d3989","on-primary-fixed-variant":"#23501e","on-secondary-fixed":"#00164e","surface":"#f8f9fa","on-background":"#191c1d","secondary":"#4059aa","primary-fixed":"#bcf0ae","on-secondary":"#ffffff","surface-bright":"#f8f9fa","primary-fixed-dim":"#a1d494","on-error-container":"#93000a","on-tertiary-fixed":"#2f1500","inverse-surface":"#2e3132","surface-tint":"#3b6934","error":"#ba1a1a","on-surface":"#191c1d","surface-container-low":"#f3f4f5","inverse-on-surface":"#f0f1f2","secondary-fixed":"#dce1ff","on-tertiary-container":"#ffb273","surface-dim":"#d9dadb","on-surface-variant":"#42493e","on-error":"#ffffff","on-secondary-fixed-variant":"#264191","surface-variant":"#e1e3e4","outline-variant":"#c2c9bb"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"sidebar-collapsed-width":"4.5rem","max-content-width":"90rem","space-sm":"0.75rem","space-2xl":"2.5rem","space-xl":"2rem","space-3xl":"3rem","sidebar-width":"16.25rem","space-2xs":"0.25rem","space-md":"1rem","margin-desktop":"2rem","gutter-desktop":"1.5rem","space-xs":"0.5rem","space-lg":"1.5rem"},fontFamily:{"display-lg":["plusJakartaSans"],"body-sm":["plusJakartaSans"],"headline-md":["plusJakartaSans"],"body-md":["plusJakartaSans"],"label-sm":["plusJakartaSans"],"body-lg":["plusJakartaSans"],"headline-xl":["plusJakartaSans"],"headline-lg":["plusJakartaSans"],"label-md":["plusJakartaSans"],"label-lg":["plusJakartaSans"]},fontSize:{"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"18px","letterSpacing":"0.005em","fontWeight":"400"}],"headline-md":["18px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-xl":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface min-h-screen"><aside class="fixed left-0 top-0 h-full w-sidebar-width bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between overflow-y-auto"><div class="flex flex-col"><div class="p-space-lg flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="Logo Araucaria Alto del Carmen" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUfF1F38ywhQfQGv1GwgfNtQffeBdmOI3ZNXzgfPOOU0C3SY48kOA6NkAchEDvc_twVzJRjUUal2EsB5iO6GrOvlHdmaLFZQ9AwkAH33bmecWEMn366PS_MQF0RMB0nSiA--0Sx7oI3XbXupGRVLsDOKcyWzRKMUzCbgaQmBzZohWk8Kl3iKjddPGqmU8kBs8vXg5gwzMH4RzksNGloGBjsBZ8mv7D2flnUN5v5G57AnWS25u5c_5NZw"/><div class="flex flex-col"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">Alto del Carmen</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Panel de Gestión</span></div></div><div class="h-px w-full bg-surface-container-high my-space-xs"></div><div class="flex items-center gap-space-sm p-space-xs rounded-xl bg-surface-container-low"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VRhM59p_43__zkU9uBtpTTklRwlYYhRYmngHmG1S-TKDLEIZrTql80GoXTonEikyXbWEiavVfHm2oJLgChqyB65Sak4xiR-XwkXj2V2Whfe6jKYjbRd9ZtGiI6hBQYhEEKYSpSf3DCR8HgZEyurzmpcxBcL6x-30UR5bjwAk9K3QhGgWIJbVi7oZ5NyoctFr_M3ueUXEVrLRtSN7CQ_wB6UzohD0hNhsoI3oIdaiZaXJVHeui8D5llSq4"/><div class="flex flex-col overflow-hidden"><span class="font-label-md text-label-md text-on-surface truncate font-semibold">Juan Pérez</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Admin DIDECO</span></div></div></div><nav class="flex flex-col gap-space-2xs px-space-md mt-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-bold"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[20px]">space_dashboard</span><span class="font-label-lg text-label-lg">Dashboard</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl transition-colors bg-primary-container text-on-primary-container font-bold" data-path="talleres" href="#"><span class="material-symbols-outlined text-[20px]">school</span><span class="font-label-lg text-label-lg">Gestión de Talleres</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="inscripciones" href="#"><span class="material-symbols-outlined text-[20px]">how_to_reg</span><span class="font-label-lg text-label-lg">Inscripción Vecinos</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="asistencia" href="#"><span class="material-symbols-outlined text-[20px]">fact_check</span><span class="font-label-lg text-label-lg">Control Asistencia</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="inventario" href="#"><span class="material-symbols-outlined text-[20px]">inventory_2</span><span class="font-label-lg text-label-lg">Inventario y Equipos</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="reportes" href="#"><span class="material-symbols-outlined text-[20px]">analytics</span><span class="font-label-lg text-label-lg">Reportes y Dirección</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="configuracion" href="#"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-label-lg text-label-lg">Configuración</span></a></nav></div><div class="p-space-lg"><div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col gap-space-2xs"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Centro Comunitario</span><span class="font-body-sm text-body-sm text-on-surface font-semibold">Alto del Carmen</span></div></div></aside><div class="pl-sidebar-width"><header class="fixed top-0 left-sidebar-width right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-xl"><div class="flex items-center gap-space-md flex-1 max-w-xl"><div class="relative w-full"><span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span><input class="w-full h-10 pl-10 pr-space-md rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary/20" placeholder="Buscar vecinos, fichas, talleres o solicitudes..." type="search"/></div><div class="flex items-center gap-space-xs rounded-xl bg-surface-container-low px-space-sm py-1.5 shrink-0"><span class="material-symbols-outlined text-outline text-[18px]">location_on</span><select class="bg-transparent text-on-surface font-label-md text-label-md focus:outline-none pr-space-xs"><option value="all">Todo el Comunal</option><option value="san-felix">Sede San Félix</option><option value="el-transito">Sede El Tránsito</option></select></div></div><div class="flex items-center gap-space-md"><button aria-label="Notificaciones" class="relative p-space-xs rounded-xl hover:bg-surface-container-high text-on-surface-variant transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 w-4 h-4 rounded-full bg-error text-on-error font-label-sm text-[10px] flex items-center justify-center font-bold">3</span></button><div class="h-6 w-px bg-surface-container-high"></div><div class="flex items-center gap-space-sm"><div class="text-right hidden sm:flex sm:flex-col"><span class="font-label-md text-label-md font-semibold text-on-surface leading-tight">Juan Pérez</span><span class="font-label-sm text-label-sm text-on-surface-variant">Administrador Municipal</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VRhM59p_43__zkU9uBtpTTklRwlYYhRYmngHmG1S-TKDLEIZrTql80GoXTonEikyXbWEiavVfHm2oJLgChqyB65Sak4xiR-XwkXj2V2Whfe6jKYjbRd9ZtGiI6hBQYhEEKYSpSf3DCR8HgZEyurzmpcxBcL6x-30UR5bjwAk9K3QhGgWIJbVi7oZ5NyoctFr_M3ueUXEVrLRtSN7CQ_wB6UzohD0hNhsoI3oIdaiZaXJVHeui8D5llSq4"/></div></div></header><main class="relative pt-16 bg-background min-h-screen px-space-xl py-space-lg"><div class="flex flex-col w-full gap-space-xl">
+<!-- Encabezado de Sección y Acciones Principales -->
+<div class="flex flex-col xl:flex-row xl:items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wider">Período Otoño-Invierno 2025</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">• DIDECO Alto del Carmen</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Catálogo y Planificación de Talleres Municipales</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Administración de cursos, monitores, cupos y horarios para los valles San Félix y El Tránsito.</p>
+</div>
+<div class="flex items-center gap-space-sm self-start xl:self-auto shrink-0">
+<button class="flex items-center gap-space-xs px-space-md py-space-sm rounded-xl bg-surface-container-lowest text-on-surface shadow-sm hover:bg-surface-container-high transition-colors font-label-lg text-label-lg" type="button">
+<span class="material-symbols-outlined text-[20px]">download</span>
+<span>Exportar Planificación</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-space-sm rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg shadow-sm hover:opacity-95 transition-opacity" id="btn-nuevo-taller" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+<span>+ Crear Nuevo Taller</span>
+</button>
+</div>
+</div>
+<!-- Barra de Filtros y Búsqueda -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col lg:flex-row items-center justify-between gap-space-md">
+<div class="flex flex-wrap items-center gap-space-sm w-full lg:w-auto">
+<div class="relative flex-1 sm:w-72">
+<span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-outline text-[18px]">search</span>
+<input class="w-full h-10 pl-9 pr-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest shadow-inner" id="filter-search" placeholder="Buscar por código, taller o monitor..." type="text"/>
+</div>
+<div class="flex items-center gap-space-xs rounded-xl bg-surface-container-low px-space-sm py-1.5">
+<span class="material-symbols-outlined text-outline text-[18px]">location_on</span>
+<select class="bg-transparent text-on-surface font-label-md text-label-md focus:outline-none" id="filter-sede">
+<option value="all">Sede: Todas las Sedes</option>
+<option value="san-felix">Sede: San Félix</option>
+<option value="el-transito">Sede: El Tránsito</option>
+</select>
+</div>
+<div class="flex items-center gap-space-xs rounded-xl bg-surface-container-low px-space-sm py-1.5">
+<span class="material-symbols-outlined text-outline text-[18px]">category</span>
+<select class="bg-transparent text-on-surface font-label-md text-label-md focus:outline-none" id="filter-cat">
+<option value="all">Categoría: Todas</option>
+<option value="adulto-mayor">Adulto Mayor</option>
+<option value="digital">Alfabetización Digital</option>
+<option value="oficios">Oficios Tradicionales</option>
+<option value="deportes">Deportes &amp; Salud</option>
+</select>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-end lg:self-auto text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">sync</span>
+<span>Sincronizado hace 4 min</span>
+</div>
+</div>
+<!-- Fila de Indicadores Clave (KPIs) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-space-md">
+<!-- KPI 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Talleres Vigentes</span>
+<div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">calendar_month</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-on-surface leading-none">12</span>
+<span class="font-label-md text-label-md text-primary font-bold">+2 este mes</span>
+</div>
+<span class="mt-space-xs font-body-sm text-body-sm text-on-surface-variant">Distribuidos en 2 valles comunales</span>
+</div>
+<!-- KPI 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Cupos Asignados</span>
+<div class="w-10 h-10 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">groups</span>
+</div>
+</div>
+<div class="mt-space-md">
+<div class="flex items-baseline justify-between">
+<span class="font-display-lg text-display-lg text-on-surface leading-none">210<span class="font-headline-md text-headline-md text-on-surface-variant font-normal">/240</span></span>
+<span class="font-label-md text-label-md text-secondary font-bold">87.5%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high mt-space-xs overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 87.5%;"></div>
+</div>
+</div>
+<span class="mt-space-xs font-body-sm text-body-sm text-on-surface-variant">30 cupos aún disponibles</span>
+</div>
+<!-- KPI 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Monitores Activos</span>
+<div class="w-10 h-10 rounded-xl bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[22px]">badge</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-on-surface leading-none">8</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-semibold">de 9 plazas</span>
+</div>
+<span class="mt-space-xs font-body-sm text-body-sm text-on-surface-variant">Convenio DIDECO - Cultura</span>
+</div>
+<!-- KPI 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Lista de Espera</span>
+<div class="w-10 h-10 rounded-xl bg-tertiary/10 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[22px]">hourglass_top</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-on-surface leading-none">2</span>
+<span class="font-label-md text-label-md text-tertiary font-bold">Talleres en cola</span>
+</div>
+<span class="mt-space-xs font-body-sm text-body-sm text-on-surface-variant">24 vecinos aguardando ampliación</span>
+</div>
+</div>
+<!-- Layout Principal de Datos: Pestañas + Tabla + Panel Lateral -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-lg items-start">
+<!-- Columna Principal: Pestañas y Tabla de Talleres (8 cols en desktop) -->
+<div class="xl:col-span-8 flex flex-col gap-space-md">
+<!-- Sistema de Pestañas Navegables -->
+<div class="flex items-center gap-space-xs bg-surface-container-low p-1 rounded-xl w-fit overflow-x-auto max-w-full">
+<button class="tab-btn active px-space-md py-1.5 rounded-xl font-label-md text-label-md bg-surface-container-lowest text-on-surface shadow-sm font-bold flex items-center gap-space-xs" type="button">
+<span>Todos los Talleres</span>
+<span class="w-5 h-5 rounded-full bg-primary-fixed text-on-primary-fixed text-[11px] flex items-center justify-center">12</span>
+</button>
+<button class="tab-btn px-space-md py-1.5 rounded-xl font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-space-xs" type="button">
+<span>Valle San Félix</span>
+<span class="w-5 h-5 rounded-full bg-surface-container-highest text-on-surface-variant text-[11px] flex items-center justify-center">6</span>
+</button>
+<button class="tab-btn px-space-md py-1.5 rounded-xl font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-space-xs" type="button">
+<span>Valle El Tránsito</span>
+<span class="w-5 h-5 rounded-full bg-surface-container-highest text-on-surface-variant text-[11px] flex items-center justify-center">6</span>
+</button>
+<button class="tab-btn px-space-md py-1.5 rounded-xl font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-space-xs" type="button">
+<span>Solicitudes Nuevas</span>
+<span class="w-5 h-5 rounded-full bg-error-container text-on-error-container text-[11px] font-bold flex items-center justify-center">3</span>
+</button>
+</div>
+<!-- Tabla Administrativa de Gestión de Talleres -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-md text-label-md uppercase tracking-wider">
+<th class="py-space-sm px-space-md font-semibold">Taller &amp; Código</th>
+<th class="py-space-sm px-space-md font-semibold">Sede y Sala</th>
+<th class="py-space-sm px-space-md font-semibold">Días / Horario</th>
+<th class="py-space-sm px-space-md font-semibold">Monitor</th>
+<th class="py-space-sm px-space-md font-semibold">Cupos Ocupados</th>
+<th class="py-space-sm px-space-md font-semibold">Estado</th>
+<th class="py-space-sm px-space-md font-semibold text-right">Acciones</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-high text-body-sm font-body-sm text-on-surface">
+<!-- Fila 1 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-md text-[15px] font-bold text-on-surface">Alfarería Diaguita y Esmaltado</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">COD: TLL-SF-01 • Oficios</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">store</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium">Sede San Félix</span>
+<span class="text-[11px] text-on-surface-variant">Taller de Cerámica</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium">Mar y Jue</span>
+<span class="text-[11px] text-on-surface-variant">15:30 - 17:30</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Retrato fotográfico en primer plano de una monitora de alfarería sonriendo amablemente en su taller, iluminación cálida natural andina, vestimenta verde municipal de trabajo." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVHcZsuisWS_C3h6Lc02W78o3lCWPSQvYQN6qdsiCr4fZr7f-BSPakPZhBsi7nlasSv24_FysIheuz3S4P2ptv5exmuC0mSA3xx3PzMnphMDKz_gNBBf-CdmgaPk-fsD09icHST8hQN2gnWJCSYrE4_lnockUPAWtoWnYQd4D6Ks-fw-Diel56QjcMmBGlzZYu2XmFJPWUKwT4nnQJGBh-Tqvt1Tk6owVaviXREd_feesQGMJw3ZIEmA"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md truncate">Elena Morales</span>
+<span class="text-[10px] text-on-surface-variant">Artesana Local</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-1 w-28">
+<div class="flex justify-between items-baseline font-label-sm text-label-sm">
+<span class="font-bold">18/20</span>
+<span class="text-on-surface-variant text-[10px]">90%</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-high overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 90%;"></div>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[#ECFDF5] text-[#065F46] font-label-sm text-[11px] font-bold tracking-wide">
+<span class="w-1.5 h-1.5 rounded-full bg-[#059669]"></span>
+                    Activo / Cupos
+                  </span>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<div class="inline-flex items-center gap-1 text-on-surface-variant">
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-on-surface transition-colors" title="Editar taller" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-secondary transition-colors" title="Ver inscritos" type="button">
+<span class="material-symbols-outlined text-[18px]">how_to_reg</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-on-surface transition-colors" title="Duplicar taller" type="button">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Fila 2 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-md text-[15px] font-bold text-on-surface">Gimnasia Adaptada Adulto Mayor</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">COD: TLL-SF-02 • Adulto Mayor</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">store</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium">Sede San Félix</span>
+<span class="text-[11px] text-on-surface-variant">Salón Multiuso</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium">Lun, Mié y Vie</span>
+<span class="text-[11px] text-on-surface-variant">09:30 - 10:45</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Kinesiólogo joven instructor con polera institucional del municipio de Alto del Carmen sosteniendo una tabla de anotaciones en gimnasio comunitario." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFH7i2osVNXWbUjiwbnTuqrJdV_1IVcvRrzyIokLdhk_o09SY_uKCKptLx5XBn46OucO0BRVcVdcejjlNDwreScSOUHSNH-_6vesMkr-tWLtJMbib5oZwIKpcqxRo3sUSWZK1k9KAw-V60yzEJF_ZCL4GftqenjWX-huR1XBN09REbyObwySh_hhFvVPed0SDl1tLLYFbCdDjDghoiTnySCNEQPR7TFIdO28syZo3SUa_Os4spILNnpw"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md truncate">Rodrigo Campillay</span>
+<span class="text-[10px] text-on-surface-variant">Kinesiólogo DIDECO</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-1 w-28">
+<div class="flex justify-between items-baseline font-label-sm text-label-sm">
+<span class="font-bold text-error">25/25</span>
+<span class="text-error text-[10px] font-bold">100%</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-high overflow-hidden">
+<div class="bg-error h-full rounded-full" style="width: 100%;"></div>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[#FEF2F2] text-[#991B1B] font-label-sm text-[11px] font-bold tracking-wide">
+<span class="w-1.5 h-1.5 rounded-full bg-[#DC2626]"></span>
+                    Cupos Llenos
+                  </span>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<div class="inline-flex items-center gap-1 text-on-surface-variant">
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-on-surface transition-colors" title="Editar taller" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-secondary transition-colors" title="Ver inscritos" type="button">
+<span class="material-symbols-outlined text-[18px]">how_to_reg</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-on-surface transition-colors" title="Duplicar taller" type="button">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Fila 3 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-md text-[15px] font-bold text-on-surface">Alfabetización Digital para Emprendedoras</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">COD: TLL-ET-04 • Digital</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-secondary">domain</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium">Sede El Tránsito</span>
+<span class="text-[11px] text-on-surface-variant">Laboratorio Digital</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium">Miércoles</span>
+<span class="text-[11px] text-on-surface-variant">16:00 - 18:30</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Docente de informática enseñando en sala de computación a vecinas del valle agrícola de Atacama, ambiente colaborativo y profesional." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzt3SE32PhMWi8GXyvf2oDY9DENJpl2chCaqogMbBoNBm66-6uzbyLNpHsGO-rJl93IfjwXYodoMwJ9zStMMoQqW4AsU6TH1VMrsS8lvBViWRm4X2dMcbPi-famjIrwGEbJ_h4b99ENbZdtMvF2Kekzzbr01lA4GNjymwp0sRJ_ROem2ZNFtPbyc5FnYH8ANZJEK-U-62fCMJK0KNqvfsqgMix1tgHbBkEd9x12DzFA1pymDahDrmQ-g"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md truncate">Karina Araya</span>
+<span class="text-[10px] text-on-surface-variant">Ing. Informática</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-1 w-28">
+<div class="flex justify-between items-baseline font-label-sm text-label-sm">
+<span class="font-bold">12/15</span>
+<span class="text-on-surface-variant text-[10px]">80%</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-high overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 80%;"></div>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[#ECFDF5] text-[#065F46] font-label-sm text-[11px] font-bold tracking-wide">
+<span class="w-1.5 h-1.5 rounded-full bg-[#059669]"></span>
+                    Activo / Cupos
+                  </span>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<div class="inline-flex items-center gap-1 text-on-surface-variant">
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-on-surface transition-colors" title="Editar taller" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-secondary transition-colors" title="Ver inscritos" type="button">
+<span class="material-symbols-outlined text-[18px]">how_to_reg</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-on-surface transition-colors" title="Duplicar taller" type="button">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Fila 4 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-md text-[15px] font-bold text-on-surface">Huertos Medicinales y Riego Tecnificado</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">COD: TLL-SF-03 • Oficios</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">store</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium">Sede San Félix</span>
+<span class="text-[11px] text-on-surface-variant">Invernadero Municipal</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium">Viernes</span>
+<span class="text-[11px] text-on-surface-variant">10:00 - 13:00</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Agrónomo municipal experto en riego de zonas áridas explicando plantas medicinales a vecinos de Alto del Carmen bajo la luz del sol del valle." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWFWxYVZzbbIYrXZMiW-3r6GaNmP6vsKNhCF1oYrbEbxApngno8KsDwRQWd9mrFV11YDESW8tKgCcY54MkCW9hSLfSH0En8jae4tyWRbMsILzLM4MNjYqlHQYsEUe8GH3_8bZPPeeNfTIp0p2BM1iV9krm4Q1_GkE6LPES9y1XCHtiAuaWOjseXvIZN7YAPdgccoVu0BznSKFe_Enl9VobDZmqoi9-E03vX8-H6N-jKfzzpBnu9ITaXA"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md truncate">Manuel Villegas</span>
+<span class="text-[10px] text-on-surface-variant">Téc. Agrícola</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-1 w-28">
+<div class="flex justify-between items-baseline font-label-sm text-label-sm">
+<span class="font-bold text-tertiary">14/20</span>
+<span class="text-tertiary text-[10px] font-bold">70%</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-high overflow-hidden">
+<div class="bg-tertiary h-full rounded-full" style="width: 70%;"></div>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[#FFFBEB] text-[#92400E] font-label-sm text-[11px] font-bold tracking-wide">
+<span class="w-1.5 h-1.5 rounded-full bg-[#D97706]"></span>
+                    Reprogramado
+                  </span>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<div class="inline-flex items-center gap-1 text-on-surface-variant">
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-on-surface transition-colors" title="Editar taller" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-secondary transition-colors" title="Ver inscritos" type="button">
+<span class="material-symbols-outlined text-[18px]">how_to_reg</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-on-surface transition-colors" title="Duplicar taller" type="button">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Fila 5 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-headline-md text-[15px] font-bold text-on-surface">Taller Folclórico y Danzas de la Cordillera</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">COD: TLL-ET-05 • Deportes</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-secondary">domain</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium">Sede El Tránsito</span>
+<span class="text-[11px] text-on-surface-variant">Patio Techado Sede</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-medium">Sábados</span>
+<span class="text-[11px] text-on-surface-variant">10:00 - 12:30</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Profesor de folclore chileno con pañuelo de cueca tradicional y vestimenta campesina formal en sala comunitaria del norte chico." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNvC04G98XCuW7-FQzpfF9kP1M2zPKIcecVV57DSjpvL3s8S89fa7Nc4qgP0WRXAq0zVsMq1xBBNtfB_q-I0nr1-bdl_J_WOaLsMiF0-L3TEVK15XdxyFZtQSW_w0nLn3z1YAKA-0Awo_UjdklGEksjngTxbxxMl_JTuzEGhuhVc8l8ESa_zsoNAaYAXDkKAHKKOyRsJB8XfzG9ZRDqNtvWZLF44JrtUcGuwoGFLhlqJ_pVOXPyyk7rQ"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md truncate">Gonzalo Tapia</span>
+<span class="text-[10px] text-on-surface-variant">Monitor Cultural</span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col gap-1 w-28">
+<div class="flex justify-between items-baseline font-label-sm text-label-sm">
+<span class="font-bold">28/30</span>
+<span class="text-on-surface-variant text-[10px]">93%</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-high overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 93%;"></div>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-[#ECFDF5] text-[#065F46] font-label-sm text-[11px] font-bold tracking-wide">
+<span class="w-1.5 h-1.5 rounded-full bg-[#059669]"></span>
+                    Activo / Cupos
+                  </span>
+</td>
+<td class="py-space-sm px-space-md text-right">
+<div class="inline-flex items-center gap-1 text-on-surface-variant">
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-on-surface transition-colors" title="Editar taller" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-secondary transition-colors" title="Ver inscritos" type="button">
+<span class="material-symbols-outlined text-[18px]">how_to_reg</span>
+</button>
+<button class="p-1 rounded hover:bg-surface-container-high hover:text-on-surface transition-colors" title="Duplicar taller" type="button">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Paginación y Resumen Inferior -->
+<div class="flex flex-col sm:flex-row items-center justify-between px-space-md py-space-sm bg-surface-container-low/40 gap-space-sm font-label-md text-label-md text-on-surface-variant">
+<span>Mostrando 5 de 12 talleres activos</span>
+<div class="flex items-center gap-1">
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest flex items-center justify-center text-on-surface shadow-xs disabled:opacity-40" disabled="" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="w-8 h-8 rounded-lg bg-primary text-on-primary font-bold flex items-center justify-center" type="button">1</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest flex items-center justify-center text-on-surface shadow-xs hover:bg-surface-container-high" type="button">2</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest flex items-center justify-center text-on-surface shadow-xs hover:bg-surface-container-high" type="button">3</button>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest flex items-center justify-center text-on-surface shadow-xs hover:bg-surface-container-high" type="button">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Columna Lateral Derecha: Próximos Talleres por Iniciar & Alertas de Capacidad (4 cols en desktop) -->
+<div class="xl:col-span-4 flex flex-col gap-space-lg">
+<!-- Tarjeta Destacada: Próximos Talleres por Iniciar en San Félix -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[20px]">upcoming</span>
+</div>
+<div class="flex flex-col">
+<h2 class="font-headline-md text-headline-md text-on-surface leading-snug">Próximos Inicios de Ciclo</h2>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Sede San Félix</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-sm text-label-sm font-bold text-on-surface-variant">Mayo 2025</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cursos con convocatoria abierta para apertura de nuevo período formativo comunal.</p>
+<!-- Lista de 2 talleres por iniciar -->
+<div class="flex flex-col gap-space-sm">
+<!-- Item 1: Gimnasia Adaptada -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col gap-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">Gimnasia Adaptada (Ciclo II)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sede San Félix • Salón Principal</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-sm text-[11px] font-bold shrink-0">Inicia 12 Mayo</span>
+</div>
+<div class="flex items-center justify-between text-[12px] text-on-surface-variant pt-space-2xs">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">schedule</span>
+<span>Lun, Mié y Vie (09:30 h)</span>
+</div>
+<span class="font-semibold text-primary">22/25 Inscritos</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-high overflow-hidden mt-1">
+<div class="bg-primary h-full rounded-full" style="width: 88%;"></div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[14px] text-on-surface-variant">person</span>
+<span class="text-[11px] font-medium text-on-surface-variant">Rodrigo Campillay</span>
+</div>
+<button class="font-label-sm text-label-sm text-secondary font-bold hover:underline" type="button">Ver Ficha Convocatoria</button>
+</div>
+</div>
+<!-- Item 2: Alfarería Diaguita -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col gap-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">Alfarería y Rescate Ancestral</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sede San Félix • Taller Hornos</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-[11px] font-bold shrink-0">Inicia 15 Mayo</span>
+</div>
+<div class="flex items-center justify-between text-[12px] text-on-surface-variant pt-space-2xs">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">schedule</span>
+<span>Mar y Jue (15:30 h)</span>
+</div>
+<span class="font-semibold text-secondary">15/20 Inscritos</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-high overflow-hidden mt-1">
+<div class="bg-secondary h-full rounded-full" style="width: 75%;"></div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-[14px] text-on-surface-variant">person</span>
+<span class="text-[11px] font-medium text-on-surface-variant">Elena Morales</span>
+</div>
+<button class="font-label-sm text-label-sm text-secondary font-bold hover:underline" type="button">Ver Ficha Convocatoria</button>
+</div>
+</div>
+</div>
+<button class="w-full py-2.5 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md font-semibold hover:bg-surface-container-highest transition-colors text-center flex items-center justify-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-[18px]">add_alert</span>
+<span>Publicar Ficha en Portal Vecinal</span>
+</button>
+</div>
+<!-- Resumen Territorial y Logístico de Sedes -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">Capacidad por Valle</h3>
+<span class="material-symbols-outlined text-outline text-[20px]">analytics</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Valle San Félix -->
+<div class="flex flex-col gap-space-2xs">
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="font-bold text-on-surface flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+                Valle San Félix
+              </span>
+<span class="font-semibold text-on-surface">115 / 120 Cupos (96%)</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 96%;"></div>
+</div>
+<span class="text-[11px] text-on-surface-variant">Saturación alta: Se requiere habilitar 1 nuevo curso vespertino.</span>
+</div>
+<!-- Valle El Tránsito -->
+<div class="flex flex-col gap-space-2xs">
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="font-bold text-on-surface flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+                Valle El Tránsito
+              </span>
+<span class="font-semibold text-on-surface">95 / 120 Cupos (79%)</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 79%;"></div>
+</div>
+<span class="text-[11px] text-on-surface-variant">Capacidad adecuada en salas tecnológicas y artísticas.</span>
+</div>
+</div>
+<!-- Banner de Notificación Rápida para Juan Pérez -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-xl bg-primary-container text-on-primary flex items-center justify-center shrink-0 font-bold">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">Fichas de Asistencia al Día</span>
+<span class="text-[11px] text-on-surface-variant">8 de 8 monitores reportaron la firma biométrica de la semana.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal Interactivo: Crear Nuevo Taller (Oculto por defecto, se activa con JS) -->
+<div class="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-xs hidden p-space-md" id="modal-crear-taller">
+<div class="bg-surface-container-lowest w-full max-w-2xl rounded-xl shadow-xl overflow-hidden flex flex-col">
+<!-- Modal Header -->
+<div class="p-space-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-md text-headline-md text-on-surface">Planificar Nuevo Taller Municipal</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Registro en Sistema DIDECO Alto del Carmen</span>
+</div>
+</div>
+<button class="p-1 rounded-lg hover:bg-surface-container-highest text-on-surface-variant transition-colors" id="btn-cerrar-modal" type="button">
+<span class="material-symbols-outlined text-[22px]">close</span>
+</button>
+</div>
+<!-- Modal Body (Formulario) -->
+<form class="p-space-lg flex flex-col gap-space-md" onsubmit="event.preventDefault(); document.getElementById('modal-crear-taller').classList.add('hidden');">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Nombre del Taller</label>
+<input class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest" placeholder="Ej: Gastronomía Diaguita Ancestral" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Categoría Programática</label>
+<select class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-lowest">
+<option>Oficios Tradicionales</option>
+<option>Adulto Mayor y Movilidad</option>
+<option>Alfabetización Digital</option>
+<option>Deportes y Vida Sana</option>
+</select>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Sede Comunal</label>
+<select class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none">
+<option>Sede San Félix</option>
+<option>Sede El Tránsito</option>
+<option>Alto del Carmen Central</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Sala / Espacio</label>
+<input class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none" placeholder="Ej: Sala Artesanal 2" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Cupo Máximo</label>
+<input class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none" max="50" min="5" type="number" value="20"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Monitor Asignado</label>
+<select class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none">
+<option>Elena Morales (Artesanía)</option>
+<option>Rodrigo Campillay (Kinesiología)</option>
+<option>Karina Araya (Computación)</option>
+<option>Manuel Villegas (Agronomía)</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Días y Horarios</label>
+<input class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none" placeholder="Ej: Mar - Jue 16:00 a 18:00" type="text"/>
+</div>
+</div>
+<div class="flex items-center justify-end gap-space-sm mt-space-sm pt-space-sm bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<button class="px-space-md py-2 rounded-xl text-on-surface font-label-lg text-label-lg hover:bg-surface-container-high transition-colors" id="btn-cancelar-modal" type="button">Cancelar</button>
+<button class="px-space-lg py-2 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg font-bold shadow-sm hover:opacity-95 transition-opacity" type="submit">Guardar y Habilitar</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<!-- Script para micro-interacciones de la página de gestión de talleres -->
+<script>
+  (function() {
+    const btnNuevo = document.getElementById('btn-nuevo-taller');
+    const modal = document.getElementById('modal-crear-taller');
+    const btnCerrar = document.getElementById('btn-cerrar-modal');
+    const btnCancelar = document.getElementById('btn-cancelar-modal');
+
+    if (btnNuevo && modal) {
+      btnNuevo.addEventListener('click', () => modal.classList.remove('hidden'));
+    }
+    if (btnCerrar && modal) {
+      btnCerrar.addEventListener('click', () => modal.classList.add('hidden'));
+    }
+    if (btnCancelar && modal) {
+      btnCancelar.addEventListener('click', () => modal.classList.add('hidden'));
+    }
+
+    // Comportamiento básico visual de las pestañas
+    const tabs = document.querySelectorAll('.tab-btn');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => {
+          t.classList.remove('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm', 'font-bold');
+          t.classList.add('text-on-surface-variant');
+        });
+        tab.classList.add('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm', 'font-bold');
+        tab.classList.remove('text-on-surface-variant');
+      });
+    });
+  })();
+</script></main></div></body></html>

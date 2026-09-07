@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=plusJakartaSans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-container": "#ffb273", "surface": "#f8f9fa", "secondary": "#4059aa", "background": "#f8f9fa", "surface-bright": "#f8f9fa", "on-tertiary": "#ffffff", "on-surface": "#191c1d", "tertiary": "#5a2e00", "primary-fixed-dim": "#a1d494", "inverse-primary": "#a1d494", "outline-variant": "#c2c9bb", "primary-container": "#2d5a27", "inverse-on-surface": "#f0f1f2", "inverse-surface": "#2e3132", "tertiary-fixed-dim": "#ffb77d", "surface-container": "#edeeef", "secondary-fixed-dim": "#b6c4ff", "outline": "#72796e", "on-primary": "#ffffff", "on-primary-container": "#9dd090", "primary": "#154212", "surface-dim": "#d9dadb", "tertiary-container": "#7c4100", "error": "#ba1a1a", "tertiary-fixed": "#ffdcc3", "surface-tint": "#3b6934", "on-tertiary-fixed-variant": "#6e3900", "on-background": "#191c1d", "on-error-container": "#93000a", "error-container": "#ffdad6", "on-tertiary-fixed": "#2f1500", "on-secondary": "#ffffff", "surface-container-high": "#e7e8e9", "on-primary-fixed-variant": "#23501e", "secondary-container": "#8fa7fe", "secondary-fixed": "dce1ff", "surface-variant": "#e1e3e4", "on-secondary-container": "#1d3989", "on-error": "#ffffff", "primary-fixed": "#bcf0ae", "surface-container-lowest": "#ffffff", "on-secondary-fixed-variant": "#264191", "on-secondary-fixed": "#00164e", "surface-container-highest": "#e1e3e4", "on-primary-fixed": "#002201", "surface-container-low": "#f3f4f5", "on-surface-variant": "#42493e" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-2xl": "2.5rem", "space-xs": "0.5rem", "space-md": "1rem", "gutter-desktop": "1.5rem", "max-content-width": "90rem", "space-lg": "1.5rem", "margin-desktop": "2rem", "sidebar-width": "16.25rem", "sidebar-collapsed-width": "4.5rem", "space-xl": "2rem", "space-3xl": "3rem", "space-sm": "0.75rem", "space-2xs": "0.25rem" }, "fontFamily": { "headline-xl": ["plusJakartaSans"], "display-lg": ["plusJakartaSans"], "headline-md": ["plusJakartaSans"], "body-md": ["plusJakartaSans"], "label-md": ["plusJakartaSans"], "body-lg": ["plusJakartaSans"], "label-lg": ["plusJakartaSans"], "label-sm": ["plusJakartaSans"], "headline-lg": ["plusJakartaSans"], "body-sm": ["plusJakartaSans"] }, "fontSize": { "headline-xl": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "display-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-lg": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["13px", { "lineHeight": "18px", "letterSpacing": "0.005em", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-max-content-width mx-auto px-margin-desktop flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md"><img alt="Escudo o logo minimalista moderno para el Centro Comunitario Alto del Carmen, con una hoja de parra/olivo y cordillera andina en tonos verde oliva (#3D5A2C) y azul institucional (#1E3A5F), vector limpio y sobrio.. Design context: - Primary color: #3d5a2c
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+. The logo should be visually consistent with these brand tokens." class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W2KRUO92WkY0BpMZqc90LE4RZqUoh5UC_0WtUZYKUwQAuIL1nO-TzY6qkUaY7r3ldhq7CtzUcK4R5w5a4V2xXxTu12OZJtiwKJUPKxh98cYME5iUCBAavuCmgmsFG6BvOEIDuGat-EmWtfdLbtvCJIl-Gme9QUDpPMqshaPnI8FvIwzD06CXix8-Rrx4zOsNBeeTcklnDf4dKtW1ZkOtmzYY17nd4IiNDi0hu8L7iab38HpanBBD3wzxb_"/><div class="flex flex-col"><span class="font-headline-md text-headline-md text-primary tracking-tight">Alto del Carmen</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Centro Comunitario</span></div></div><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-colors text-primary font-bold" data-path="inicio" href="#">Inicio</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="nuestros-talleres" href="#">Nuestros Talleres</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="sectores-san-felix-y-el-transito" href="#">Sectores: San Félix y El Tránsito</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="noticias" href="#">Noticias</a></nav><div class="flex items-center gap-space-md"><a class="inline-flex items-center justify-center px-space-md py-space-xs rounded-xl bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary-container hover:text-on-primary-container transition-all shadow-[0_1px_8px_rgba(0,0,0,0.04)]" data-path="login-staff" href="#">Iniciar Sesión / Acceso Staff</a><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VRhM59p_43__zkU9uBtpTTklRwlYYhRYmngHmG1S-TKDLEIZrTql80GoXTonEikyXbWEiavVfHm2oJLgChqyB65Sak4xiR-XwkXj2V2Whfe6jKYjbRd9ZtGiI6hBQYhEEKYSpSf3DCR8HgZEyurzmpcxBcL6x-30UR5bjwAk9K3QhGgWIJbVi7oZ5NyoctFr_M3ueUXEVrLRtSN7CQ_wB6UzohD0hNhsoI3oIdaiZaXJVHeui8D5llSq4"/></div></div></header><main class="w-full pt-16 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Hero Banner with Atmospheric Andean Valley Theme -->
+<section class="relative w-full overflow-hidden bg-primary text-on-primary -mt-16 pt-24 pb-20 px-margin-desktop">
+<!-- Atmospheric Background Elements -->
+<div class="absolute inset-0 bg-gradient-to-r from-primary via-primary-container to-secondary opacity-90 mix-blend-multiply pointer-events-none"></div>
+<div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-secondary/30 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -left-20 w-80 h-80 rounded-full bg-primary-fixed-dim/20 blur-2xl pointer-events-none"></div>
+<div class="relative max-w-max-content-width mx-auto flex flex-col items-center text-center">
+<!-- Institutional Tag -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container-lowest/15 backdrop-blur-md mb-space-lg shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary-fixed"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed">Ilustre Municipalidad de Alto del Carmen • DIDECO</span>
+</div>
+<h1 class="font-display-lg text-display-lg max-w-4xl tracking-tight text-on-primary">
+        Portal Comunitario Alto del Carmen: Conectando y Digitalizando Nuestra Comunidad
+      </h1>
+<p class="mt-space-md max-w-2xl font-body-lg text-body-lg text-surface-variant font-normal">
+        Espacio de encuentro, desarrollo cultural, talleres de oficios y bienestar para las vecinas y vecinos de los valles de San Félix y El Tránsito.
+      </p>
+<!-- Fast Search Bar Container -->
+<div class="w-full max-w-3xl mt-space-xl p-space-xs bg-surface-container-lowest rounded-xl shadow-xl flex flex-col md:flex-row items-center gap-space-xs text-on-surface">
+<div class="flex items-center gap-space-xs px-space-sm flex-1 w-full">
+<span class="material-symbols-outlined text-outline">search</span>
+<input class="w-full h-11 bg-transparent border-none outline-none font-body-md text-on-surface placeholder:text-outline text-body-md" id="searchInput" placeholder="Buscar por nombre de taller, disciplina o sector..." type="text"/>
+</div>
+<button class="w-full md:w-auto px-space-xl py-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-all flex items-center justify-center gap-space-xs shadow-md" id="searchBtn">
+<span class="material-symbols-outlined text-lg">explore</span>
+<span>Buscar Talleres</span>
+</button>
+</div>
+<!-- Quick Filter Pills -->
+<div class="mt-space-lg flex flex-wrap items-center justify-center gap-space-xs">
+<button class="filter-pill active px-space-md py-1.5 rounded-full text-label-md font-label-md bg-surface-container-lowest text-primary transition-all shadow-sm" data-filter="all">
+          Todos los talleres
+        </button>
+<button class="filter-pill px-space-md py-1.5 rounded-full text-label-md font-label-md bg-surface-container-lowest/20 hover:bg-surface-container-lowest/30 text-surface-lowest transition-all" data-filter="san-felix">
+          Valle San Félix
+        </button>
+<button class="filter-pill px-space-md py-1.5 rounded-full text-label-md font-label-md bg-surface-container-lowest/20 hover:bg-surface-container-lowest/30 text-surface-lowest transition-all" data-filter="el-transito">
+          Valle El Tránsito
+        </button>
+<button class="filter-pill px-space-md py-1.5 rounded-full text-label-md font-label-md bg-surface-container-lowest/20 hover:bg-surface-container-lowest/30 text-surface-lowest transition-all" data-filter="adulto-mayor">
+          Adulto Mayor
+        </button>
+<button class="filter-pill px-space-md py-1.5 rounded-full text-label-md font-label-md bg-surface-container-lowest/20 hover:bg-surface-container-lowest/30 text-surface-lowest transition-all" data-filter="digital">
+          Digital e Innovación
+        </button>
+</div>
+</div>
+</section>
+<!-- Metric Counters & Civic Indicators -->
+<section class="w-full max-w-max-content-width mx-auto px-margin-desktop -mt-8 relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-md flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">location_city</span>
+</div>
+<div>
+<span class="block font-headline-xl text-headline-xl text-primary leading-tight font-bold">2 Sedes</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">San Félix & El Tránsito</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-md flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl">groups</span>
+</div>
+<div>
+<span class="block font-headline-xl text-headline-xl text-secondary leading-tight font-bold">18+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Talleres Activos 2025</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-md flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-tertiary-container">
+<span class="material-symbols-outlined text-2xl">eco</span>
+</div>
+<div>
+<span class="block font-headline-xl text-headline-xl text-tertiary leading-tight font-bold">100%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Gratuito y Comunitario</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-md flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-2xl">directions_bus</span>
+</div>
+<div>
+<span class="block font-headline-xl text-headline-xl text-primary-container leading-tight font-bold">Rural</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Transporte de Acercamiento</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Valles y Sedes Territoriales -->
+<section class="w-full max-w-max-content-width mx-auto px-margin-desktop py-space-3xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-sm">
+<div>
+<div class="flex items-center gap-space-2xs text-secondary font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span class="material-symbols-outlined text-base">terrain</span>
+<span>Descentralización Territorial</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Nuestras Sedes en los Valles</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        Infraestructura equipada para el desarrollo integral comunal, garantizando acceso directo a servicios en cada cuenca.
+      </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-xl">
+<!-- Card Sede San Félix -->
+<div class="group relative rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col">
+<div class="relative h-64 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Historic village in San Felix Valley, Alto del Carmen, Chile, with lush green agricultural terraces, traditional adobe architecture, bright blue clear Andean sky, and peaceful community surroundings." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSS-mu-y-PtoTuvMkV693BMZlCnYpTAIR5wNaGrceL-0OS8-VGtvS6trhw0W9GHwpdn3jiBwqxpKP1vp5QRiOp520IM-0qjCL5SbgN6IE1rznkbuKGIcX48K-PdIlZ_ZChEg8j7m05FERBp5mWJNfo0n24UhFqFLTIsEEJRHO0o1t6LWuwdD1sVzGiwuHttcSUguTfEbe6pg7AOMGUp9o3v4HNwqeNG-nyxKSYSG503ZeJ7_DpEMzTnw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-on-primary">
+<div>
+<span class="inline-block px-space-xs py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase tracking-wider mb-1">Sede Patrimonial</span>
+<h3 class="font-headline-lg text-headline-lg text-white">Valle San Félix</h3>
+</div>
+<span class="flex items-center gap-1 font-label-md text-label-md text-primary-fixed">
+<span class="material-symbols-outlined text-sm">wifi</span> Conectado
+            </span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Ubicada en el casco tradicional de San Félix. Un centro enfocado en el rescate de oficios campesinos, huertos agroecológicos y un moderno telecentro con conectividad satelital Starlink abierta para la comunidad.
+          </p>
+<div class="grid grid-cols-3 gap-space-xs py-space-sm bg-surface-container rounded-lg px-space-sm text-center">
+<div>
+<span class="block font-headline-md text-headline-md text-primary font-bold">1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Telecentro Digital</span>
+</div>
+<div>
+<span class="block font-headline-md text-headline-md text-primary font-bold">2</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Salas de Talleres</span>
+</div>
+<div>
+<span class="block font-headline-md text-headline-md text-primary font-bold">1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Huerto Experimental</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-base">pin_drop</span>
+<span>Calle Comercio s/n, San Félix</span>
+</div>
+<a class="inline-flex items-center gap-space-2xs text-secondary font-label-md text-label-md hover:underline" href="#">
+<span>Conocer Horarios</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card Sede El Tránsito -->
+<div class="group relative rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col">
+<div class="relative h-64 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Lush green agricultural valley of El Transito in Alto del Carmen, northern Chile, surrounded by rugged Andean mountains, grape vineyards, olive trees, and community public space in warm sunny daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnZWvfGeYSA5wX9TVvjpD8XYL6yD5AD_3rHnoz9X_A2wYr92Uaqpk9hTwbxshsWbloCmmaEQldWRlIHmVH2okVILaAY1ZJQb2wqTtBWblkFjCSHTNWgput3xrtroUlDSwGnT28eqVEReaIxdpEkfm_iLczh_CeDkZFOVBmq2XXIx0AebjMCU5247JRQFVZuHr8tWGMa6RjqPlS_riH8cJFkClZV_IBMQv--sXsZyVKuiu2rl_z_rCo8g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-on-primary">
+<div>
+<span class="inline-block px-space-xs py-0.5 rounded bg-secondary text-on-secondary font-label-sm text-label-sm uppercase tracking-wider mb-1">Sede Cívico-Deportiva</span>
+<h3 class="font-headline-lg text-headline-lg text-white">Valle El Tránsito</h3>
+</div>
+<span class="flex items-center gap-1 font-label-md text-label-md text-secondary-fixed">
+<span class="material-symbols-outlined text-sm">sports_handball</span> Multiuso
+            </span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Punto neurálgico del valle alto, con gimnasio polideportivo techado municipal, cocina comunitaria certificada para emprendedores de conservas y un taller permanente de alfarería ancestral.
+          </p>
+<div class="grid grid-cols-3 gap-space-xs py-space-sm bg-surface-container rounded-lg px-space-sm text-center">
+<div>
+<span class="block font-headline-md text-headline-md text-secondary font-bold">1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Gimnasio Techado</span>
+</div>
+<div>
+<span class="block font-headline-md text-headline-md text-secondary font-bold">1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cocina Sanitaria</span>
+</div>
+<div>
+<span class="block font-headline-md text-headline-md text-secondary font-bold">350</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Capacidad Eventos</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-base">pin_drop</span>
+<span>Av. Las Palmeras 412, El Tránsito</span>
+</div>
+<a class="inline-flex items-center gap-space-2xs text-secondary font-label-md text-label-md hover:underline" href="#">
+<span>Conocer Horarios</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Nuestros Talleres Comunitarios Vigentes -->
+<section class="w-full bg-surface-container-low py-space-3xl" id="talleres-section">
+<div class="max-w-max-content-width mx-auto px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Formación y Encuentro 2025</span>
+<h2 class="font-display-lg text-display-lg text-on-surface mt-1">Talleres Comunitarios Vigentes</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-xl">
+            Inscripciones presenciales y en línea abiertas a todos los habitantes de la comuna de Alto del Carmen. Cupos limitados por aforo técnico.
+          </p>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant">Mostrando 6 talleres disponibles</span>
+</div>
+</div>
+<!-- Workshop Cards Grid (3 Columns) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg" id="workshopsGrid">
+<!-- Taller 1 -->
+<div class="workshop-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden" data-category="digital san-felix">
+<div class="relative h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Digital literacy workshop in a bright municipal room, adults and seniors learning how to use modern smartphones and tablets with a patient instructor in rural Chile." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw8Hu088OVezsizahlLcX0T0dK1DZ328Ctq7woLxIQ5I-HnwY8NE5e_BexrFE_IOBLXBUjE07jHMNiNEZRPSNC3a9pWjR54-1ueXkipxp50CedjdUWQtNn3Efl-hgwSGHHyydQLEpgjqS9xNPlzrHw4JOn6YOytzN5Kpky2RXfMdSY5QNVAfiMmYrJDiIcChnKG5s94lVleA76zj51hPMc05UagOynrjyECStL-Bn2J0q9dgoeh_cTvg"/>
+<div class="absolute top-3 left-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">devices</span> Digital e Innovación
+              </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-label-sm font-label-sm bg-surface-container-lowest text-primary font-semibold shadow-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+                4 Cupos libres
+              </span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-space-2xs text-on-surface-variant font-label-sm text-label-sm mb-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Valle San Félix • Sede Central</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mb-2">
+                Alfabetización Digital y Manejo de Teléfonos Inteligentes
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Aprende a realizar trámites de Registro Civil, BancoEstado, videollamadas con familiares y uso seguro de WhatsApp.
+              </p>
+</div>
+<div class="space-y-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm bg-surface-container px-space-sm py-1.5 rounded">
+<span class="material-symbols-outlined text-base text-primary">schedule</span>
+<span>Martes y Jueves • 15:30 - 17:30 hrs</span>
+</div>
+<button class="w-full mt-2 py-2.5 px-space-md rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-colors flex items-center justify-center gap-space-xs">
+<span>Ver Detalle / Solicitar Inscripción</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Taller 2 -->
+<div class="workshop-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden" data-category="adulto-mayor el-transito">
+<div class="relative h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Group of Chilean elderly seniors participating in gentle mobility and wellness gymnastics exercise inside a sunny community sports gymnasium, smiling and active." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrNwKB_oq2GwAuV5i6h-6uAovDB3WacFh4TsuH_qFFHebu6yDVhMtF-wFNirqmS5G1KDONqMVhA9KKsD946oHINMdSmWGsa6uff5Iq_xeO-72HoUP8to6FpVIDVJpJOgURK4uL_XHoT2iq_wo730W7I3AbwenjJ4Upk4jZMhlryplrc_-ljvQe81yKOcV7RF4HTYiI2JhGBO0O_5pTu3JnR48fjLO2vOvymSRd7s23M4FeHtACQO17vg"/>
+<div class="absolute top-3 left-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">accessibility_new</span> Adulto Mayor
+              </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-label-sm font-label-sm bg-surface-container-lowest text-primary font-semibold shadow-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+                2 Cupos libres
+              </span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-space-2xs text-on-surface-variant font-label-sm text-label-sm mb-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Valle El Tránsito • Gimnasio Techado</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mb-2">
+                Gimnasia Adaptada y Bienestar para Adultos Mayores
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Ejercicios terapéuticos de bajo impacto guiados por kinesiólogo municipal para movilidad, postura y bienestar integral.
+              </p>
+</div>
+<div class="space-y-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm bg-surface-container px-space-sm py-1.5 rounded">
+<span class="material-symbols-outlined text-base text-secondary">schedule</span>
+<span>Lunes y Miércoles • 10:00 - 11:30 hrs</span>
+</div>
+<button class="w-full mt-2 py-2.5 px-space-md rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-colors flex items-center justify-center gap-space-xs">
+<span>Ver Detalle / Solicitar Inscripción</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Taller 3 -->
+<div class="workshop-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden" data-category="san-felix">
+<div class="relative h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Hands shaping clay on a pottery wheel creating traditional Diaguita ceramic vessels with natural earthy textures and geometric indigenous Andean patterns in an art studio." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7gFt-0FqrYanhMVBi10t-HnbhWpN_iqwyXIb5D1j4l-xBB89_KVR76D7HC_nxoE5pHkOa4fxXCiIwlCXBjhSUCU7uDCYeLzMmKV26vrLGBKIrUsQB1VgJx-ZFNT7oUoC8E9qSSaSk6NeVtzR5H-KT5KpqLTKOIGNIQQRIRQkwIBTDAIec6K9lFiH1sH00a_FZHuEKbg6byKxaTExK4JySH1o8VG6da3plfI-ta3KXXuQy1hjwT2t2Xw"/>
+<div class="absolute top-3 left-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-tertiary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">brush</span> Patrimonio & Artesanía
+              </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-label-sm font-label-sm bg-surface-container-lowest text-primary font-semibold shadow-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+                5 Cupos libres
+              </span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-space-2xs text-on-surface-variant font-label-sm text-label-sm mb-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Valle San Félix • Taller de Artes</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mb-2">
+                Artesanía Tradicional Diaguita y Cerámica en Greda
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Recuperación de iconografía y técnicas de modelado en barro local y quema tradicional al aire libre de la cuenca del Huasco.
+              </p>
+</div>
+<div class="space-y-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm bg-surface-container px-space-sm py-1.5 rounded">
+<span class="material-symbols-outlined text-base text-tertiary">schedule</span>
+<span>Viernes • 16:00 - 18:30 hrs</span>
+</div>
+<button class="w-full mt-2 py-2.5 px-space-md rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-colors flex items-center justify-center gap-space-xs">
+<span>Ver Detalle / Solicitar Inscripción</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Taller 4 -->
+<div class="workshop-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden" data-category="el-transito">
+<div class="relative h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Commercial culinary kitchen where women prepare artisanal local jams, canned sun-dried figs and goat cheeses in sterilized glass jars with modern kitchen equipment in northern Chile." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLvXkixLa7diYA3m53SRB09QNlRyL1al95LfyQvJxWLcr05lsIX1AWchClAdyKOeb_I55R3wBbSEEtJLGo2QmkplJhPDH4e22SYchy9dkfArRXfQgJdJdwIEkLEsnx1hh5oXqzSEa0D47RAwOZwt76surZJVUmfjrLmTl_nMfmVDwfEDX8cKdLR3yThlpzUcHZdJGb-VPp5aUeRpDh1kpgzPbFYjSO8jVWhckR3grYu2P94picC7mPaQ"/>
+<div class="absolute top-3 left-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">restaurant</span> Gastronomía Típica
+              </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-label-sm font-label-sm bg-error-container text-on-error-container font-semibold shadow-xs">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+                Cupos Agotados
+              </span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-space-2xs text-on-surface-variant font-label-sm text-label-sm mb-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Valle El Tránsito • Cocina Comunitaria</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mb-2">
+                Cocina Saludable, Repostería y Conservas Locales
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Elaboración artesanal de manjar, mermeladas de higo, pajarete y deshidratados con certificación sanitaria para venta local.
+              </p>
+</div>
+<div class="space-y-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm bg-surface-container px-space-sm py-1.5 rounded">
+<span class="material-symbols-outlined text-base text-tertiary">schedule</span>
+<span>Sábados • 10:00 - 13:00 hrs</span>
+</div>
+<button class="w-full mt-2 py-2.5 px-space-md rounded-lg bg-surface-container-high hover:bg-surface-dim text-on-surface font-label-md text-label-md transition-colors flex items-center justify-center gap-space-xs">
+<span class="material-symbols-outlined text-sm">hourglass_top</span>
+<span>Anotar en Lista de Espera</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Taller 5 -->
+<div class="workshop-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden" data-category="san-felix adulto-mayor">
+<div class="relative h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Traditional textile loom weaving in sheep wool with vibrant natural vegetal dyes, artisan hands working on intricate traditional Andean patterns in a bright workshop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdi19o8cwM-FaW2xFcQDck-AasJqwB65Ia0Yi5vQGjlMon4DO-Qt7ID6b2eD511leaJyRqna7wD4ddqNAzzhdU7tIfa1YrlEUCLvOlRiT66i3LT2KSkAU9ZbCX0xwA4Qjq8XuQ6YcvPvglmgYAs6uMKcty3VFne22K0DO02xobXJiirXlbD61nrNwPNbfsU5muQssHkxewU2NzkOPcC8GxTq8oLw5qQl0DGujHZ6cY1Rz-MiBXhznwHA"/>
+<div class="absolute top-3 left-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">dry_cleaning</span> Rescate Textil
+              </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-label-sm font-label-sm bg-surface-container-lowest text-primary font-semibold shadow-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+                3 Cupos libres
+              </span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-space-2xs text-on-surface-variant font-label-sm text-label-sm mb-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Valle San Félix • Sala Textil</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mb-2">
+                Tejido a Telar y Rescate Textil Ancestral
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Hilado de lana de oveja, teñido natural con cáscaras de nuez y chañar, y confección de frazadas en telar de cuatro cuadros.
+              </p>
+</div>
+<div class="space-y-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm bg-surface-container px-space-sm py-1.5 rounded">
+<span class="material-symbols-outlined text-base text-secondary">schedule</span>
+<span>Miércoles • 14:00 - 17:00 hrs</span>
+</div>
+<button class="w-full mt-2 py-2.5 px-space-md rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-colors flex items-center justify-center gap-space-xs">
+<span>Ver Detalle / Solicitar Inscripción</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Taller 6 -->
+<div class="workshop-card bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all flex flex-col overflow-hidden" data-category="el-transito digital">
+<div class="relative h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Community agricultural greenhouse and drip irrigation system in an arid Chilean mountain valley with local farmers examining healthy tomato and leafy crops." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQZFlsln8Zi6GOU3iNlpraUG0lxWJPA2q-mGsN8Zwj1ac8nvylPtn8Cx9Cs8pPiGVSfFO9V-N6V_8V5FLRJENNkpxs_8J13LBiQrE78fFJx1ORuWtpk1MEZvDr1yzvlb0uZtJB8fdsSCT6_eQOCIqGQixtVLT2lk7otCIYbBnOR4NlYAx-Nu99Rw-IbkRQrB-5IeItboggTkedvI_HcOM7VKBw48ruD81tmBsYnrcAvEjyZO9rdNq0xw"/>
+<div class="absolute top-3 left-3">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-xs">water_drop</span> Agroecología
+              </span>
+</div>
+<div class="absolute bottom-3 right-3">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-label-sm font-label-sm bg-surface-container-lowest text-primary font-semibold shadow-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+                8 Cupos libres
+              </span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-space-2xs text-on-surface-variant font-label-sm text-label-sm mb-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Valle El Tránsito • Parcela Demostrativa</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mb-2">
+                Huerto Comunitario y Riego Eficiente en el Desierto
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Técnicas de aprovechamiento de aguas grises, sensores sencillos de humedad, compostaje en altura y asociación de cultivos de secano.
+              </p>
+</div>
+<div class="space-y-space-xs pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm bg-surface-container px-space-sm py-1.5 rounded">
+<span class="material-symbols-outlined text-base text-primary">schedule</span>
+<span>Jueves • 17:00 - 19:30 hrs</span>
+</div>
+<button class="w-full mt-2 py-2.5 px-space-md rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-colors flex items-center justify-center gap-space-xs">
+<span>Ver Detalle / Solicitar Inscripción</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Novedades, Avisos Comunitarios & Operativos -->
+<section class="w-full max-w-max-content-width mx-auto px-margin-desktop py-space-3xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Información Cívica y Territorial</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface mt-1">Avisos y Operativos del Mes</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-xl">
+          Mantente al día con los servicios itinerantes, rondas de salud y beneficios municipales desplegados en cada rincón de la comuna.
+        </p>
+</div>
+<a class="inline-flex items-center gap-space-2xs px-space-md py-2 rounded-lg bg-surface-container-high hover:bg-surface-dim font-label-md text-label-md text-on-surface transition-colors" href="#">
+<span class="material-symbols-outlined text-base">calendar_month</span>
+<span>Descargar Calendario Municipal PDF</span>
+</a>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-lg">
+<!-- Aviso 1: Operativo Oftalmológico -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-space-xs py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase font-semibold">Salud Comunitaria</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">18 y 19 de Mayo</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mt-2">Operativo Oftalmológico y Entrega de Lentes Gratuitos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Atención clínica especializada para vecinas y vecinos desde los 45 años inscritos en FONASA o CESFAM Comunal. Se requiere cédula de identidad vigente.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container rounded-lg p-space-sm space-y-1 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm text-secondary">pin_drop</span>
+<span>Gimnasio Techado El Tránsito</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm text-secondary">alarm</span>
+<span>09:00 a 16:30 hrs por orden de llegada</span>
+</div>
+</div>
+</div>
+<!-- Aviso 2: Transporte Rural -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-space-xs py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase font-semibold">Conectividad</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Ruta Semanal</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mt-2">Transporte Rural Subsidiado para Talleres</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Recorrido gratuito de microbuses municipales para el traslado de estudiantes y adultos mayores desde Quebrada de Pinte, La Marquesa y Chanchoquín.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container rounded-lg p-space-sm space-y-1 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm text-primary">directions_bus</span>
+<span>Salida 08:30 hrs hacia Sedes Comunitarias</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm text-primary">phone_in_talk</span>
+<span>Coordinación: +56 9 8452 1190</span>
+</div>
+</div>
+</div>
+<!-- Aviso 3: Entrega de Insumos Agro -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-space-xs py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm uppercase font-semibold">Fomento Productivo</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">24 de Mayo</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold mt-2">Entrega de Insumos para Huertos Familiares y Riego</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Distribución de cintas de goteo, biofertilizantes locales y semillas adaptadas a la escasez hídrica a los beneficiarios del convenio INDAP-Municipalidad.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm bg-surface-container rounded-lg p-space-sm space-y-1 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm text-tertiary">inventory_2</span>
+<span>Patio Sede Central Alto del Carmen</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm text-tertiary">badge</span>
+<span>Presentar carnet o ficha social</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Banner de Atención Ciudadana & DIDECO -->
+<section class="w-full bg-surface-container py-space-2xl">
+<div class="max-w-max-content-width mx-auto px-margin-desktop">
+<div class="bg-surface-container-lowest rounded-2xl p-space-xl md:p-space-2xl shadow-sm flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<div class="flex-1 space-y-space-xs">
+<div class="flex items-center gap-2 text-primary font-label-sm text-label-sm uppercase tracking-widest font-bold">
+<span class="material-symbols-outlined text-base">support_agent</span>
+<span>Oficina de Apoyo al Postulante</span>
+</div>
+<h3 class="font-headline-xl text-headline-xl text-on-surface font-bold">¿Tienes dudas o necesitas ayuda para postular a un taller?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Nuestro equipo social de DIDECO visita periódicamente las juntas de vecinos de San Félix y El Tránsito. También puedes acudir directamente a la ventanilla única municipal.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md pt-2 text-on-surface font-body-sm text-body-sm">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-base">call</span>
+<span><strong>Mesa Central:</strong> +56 51 2 610300</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-base">mail</span>
+<span>dideco@munialtodelcarmen.cl</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-sm w-full lg:w-auto">
+<a class="w-full sm:w-auto px-space-xl py-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-all text-center shadow-md flex items-center justify-center gap-space-xs" href="#">
+<span class="material-symbols-outlined text-base">help</span>
+<span>Solicitar Ayuda Municipal</span>
+</a>
+<a class="w-full sm:w-auto px-space-xl py-3 rounded-lg bg-surface-container hover:bg-surface-dim text-on-surface font-label-lg text-label-lg transition-all text-center" href="#">
+            Preguntas Frecuentes
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript logic for dynamic search and pill filtering -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('searchInput');
+      const searchBtn = document.getElementById('searchBtn');
+      const filterPills = document.querySelectorAll('.filter-pill');
+      const cards = document.querySelectorAll('.workshop-card');
+
+      let currentFilter = 'all';
+
+      function applyFilterAndSearch() {
+        const query = (searchInput.value || '').toLowerCase().trim();
+
+        cards.forEach(card => {
+          const category = card.getAttribute('data-category') || '';
+          const cardText = card.textContent.toLowerCase();
+
+          const matchesFilter = (currentFilter === 'all') || category.includes(currentFilter);
+          const matchesSearch = !query || cardText.includes(query);
+
+          if (matchesFilter && matchesSearch) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+
+      filterPills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          filterPills.forEach(p => {
+            p.classList.remove('bg-surface-container-lowest', 'text-primary', 'active');
+            p.classList.add('bg-surface-container-lowest/20', 'text-surface-lowest');
+          });
+
+          pill.classList.remove('bg-surface-container-lowest/20', 'text-surface-lowest');
+          pill.classList.add('bg-surface-container-lowest', 'text-primary', 'active');
+
+          currentFilter = pill.getAttribute('data-filter');
+          applyFilterAndSearch();
+        });
+      });
+
+      searchInput.addEventListener('input', () => {
+        applyFilterAndSearch();
+      });
+
+      searchBtn.addEventListener('click', () => {
+        applyFilterAndSearch();
+        const workshopsElement = document.getElementById('talleres-section');
+        if (workshopsElement) {
+          workshopsElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container py-space-2xl"><div class="max-w-max-content-width mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-space-xl"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-space-xs"><img alt="Logo Comunitario" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W2KRUO92WkY0BpMZqc90LE4RZqUoh5UC_0WtUZYKUwQAuIL1nO-TzY6qkUaY7r3ldhq7CtzUcK4R5w5a4V2xXxTu12OZJtiwKJUPKxh98cYME5iUCBAavuCmgmsFG6BvOEIDuGat-EmWtfdLbtvCJIl-Gme9QUDpPMqshaPnI8FvIwzD06CXix8-Rrx4zOsNBeeTcklnDf4dKtW1ZkOtmzYY17nd4IiNDi0hu8L7iab38HpanBBD3wzxb_"/><span class="font-headline-md text-headline-md text-primary">Centro Comunitario</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Espacio cívico y de desarrollo social de la Ilustre Municipalidad de Alto del Carmen, Región de Atacama.</p></div><div class="flex flex-col gap-space-xs"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Sedes y Cobertura</span><ul class="flex flex-col gap-space-2xs font-body-sm text-body-sm text-on-surface-variant"><li>Sede Central: Alto del Carmen</li><li>Sede El Tránsito</li><li>Sede San Félix</li></ul></div><div class="flex flex-col gap-space-xs"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Contacto Cívico</span><div class="flex flex-col gap-space-2xs font-body-sm text-body-sm text-on-surface-variant"><p>Padre Alonso García s/n, Alto del Carmen</p><p>contacto@cc-altodelcarmen.cl</p><p>+56 51 2 610300</p></div></div><div class="flex flex-col gap-space-xs"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Horario de Atención</span><p class="font-body-sm text-body-sm text-on-surface-variant">Lunes a Viernes: 08:30 - 17:30 hrs<br/>Sábados (Talleres y Encuentros): 09:00 - 14:00 hrs</p></div></div><div class="max-w-max-content-width mx-auto px-margin-desktop mt-space-xl pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-label-sm text-label-sm"><span>© 2025 Ilustre Municipalidad de Alto del Carmen. Plataforma de Gestión Comunitaria.</span><div class="flex gap-space-md"><a class="hover:text-on-surface transition-colors" href="#">Términos de Uso</a><a class="hover:text-on-surface transition-colors" href="#">Transparencia Activa</a><a class="hover:text-on-surface transition-colors" href="#">Privacidad</a></div></div></footer></body></html>

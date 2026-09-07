@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"tertiary-fixed-dim":"#ffb77d","tertiary":"#5a2e00","background":"#f8f9fa","surface-container-highest":"#e1e3e4","surface-container-lowest":"#ffffff","primary-container":"#2d5a27","tertiary-container":"#7c4100","on-tertiary":"#ffffff","on-primary-fixed":"#002201","inverse-primary":"#a1d494","surface-container-high":"#e7e8e9","error-container":"#ffdad6","primary":"#154212","on-primary":"#ffffff","outline":"#72796e","secondary-fixed-dim":"#b6c4ff","tertiary-fixed":"#ffdcc3","on-primary-container":"#9dd090","on-tertiary-fixed-variant":"#6e3900","secondary-container":"#8fa7fe","surface-container":"#edeeef","on-secondary-container":"#1d3989","on-primary-fixed-variant":"#23501e","on-secondary-fixed":"#00164e","surface":"#f8f9fa","on-background":"#191c1d","secondary":"#4059aa","primary-fixed":"#bcf0ae","on-secondary":"#ffffff","surface-bright":"#f8f9fa","primary-fixed-dim":"#a1d494","on-error-container":"#93000a","on-tertiary-fixed":"#2f1500","inverse-surface":"#2e3132","surface-tint":"#3b6934","error":"#ba1a1a","on-surface":"#191c1d","surface-container-low":"#f3f4f5","inverse-on-surface":"#f0f1f2","secondary-fixed":"#dce1ff","on-tertiary-container":"#ffb273","surface-dim":"#d9dadb","on-surface-variant":"#42493e","on-error":"#ffffff","on-secondary-fixed-variant":"#264191","surface-variant":"#e1e3e4","outline-variant":"#c2c9bb"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"sidebar-collapsed-width":"4.5rem","max-content-width":"90rem","space-sm":"0.75rem","space-2xl":"2.5rem","space-xl":"2rem","space-3xl":"3rem","sidebar-width":"16.25rem","space-2xs":"0.25rem","space-md":"1rem","margin-desktop":"2rem","gutter-desktop":"1.5rem","space-xs":"0.5rem","space-lg":"1.5rem"},fontFamily:{"display-lg":["plusJakartaSans"],"body-sm":["plusJakartaSans"],"headline-md":["plusJakartaSans"],"body-md":["plusJakartaSans"],"label-sm":["plusJakartaSans"],"body-lg":["plusJakartaSans"],"headline-xl":["plusJakartaSans"],"headline-lg":["plusJakartaSans"],"label-md":["plusJakartaSans"],"label-lg":["plusJakartaSans"]},fontSize:{"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"18px","letterSpacing":"0.005em","fontWeight":"400"}],"headline-md":["18px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-xl":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface min-h-screen"><aside class="fixed left-0 top-0 h-full w-sidebar-width bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between overflow-y-auto"><div class="flex flex-col"><div class="p-space-lg flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="Logo Araucaria Alto del Carmen" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUfF1F38ywhQfQGv1GwgfNtQffeBdmOI3ZNXzgfPOOU0C3SY48kOA6NkAchEDvc_twVzJRjUUal2EsB5iO6GrOvlHdmaLFZQ9AwkAH33bmecWEMn366PS_MQF0RMB0nSiA--0Sx7oI3XbXupGRVLsDOKcyWzRKMUzCbgaQmBzZohWk8Kl3iKjddPGqmU8kBs8vXg5gwzMH4RzksNGloGBjsBZ8mv7D2flnUN5v5G57AnWS25u5c_5NZw"/><div class="flex flex-col"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-bold">Alto del Carmen</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Panel de Gestión</span></div></div><div class="h-px w-full bg-surface-container-high my-space-xs"></div><div class="flex items-center gap-space-sm p-space-xs rounded-xl bg-surface-container-low"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VRhM59p_43__zkU9uBtpTTklRwlYYhRYmngHmG1S-TKDLEIZrTql80GoXTonEikyXbWEiavVfHm2oJLgChqyB65Sak4xiR-XwkXj2V2Whfe6jKYjbRd9ZtGiI6hBQYhEEKYSpSf3DCR8HgZEyurzmpcxBcL6x-30UR5bjwAk9K3QhGgWIJbVi7oZ5NyoctFr_M3ueUXEVrLRtSN7CQ_wB6UzohD0hNhsoI3oIdaiZaXJVHeui8D5llSq4"/><div class="flex flex-col overflow-hidden"><span class="font-label-md text-label-md text-on-surface truncate font-semibold">Juan Pérez</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Admin DIDECO</span></div></div></div><nav class="flex flex-col gap-space-2xs px-space-md mt-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-bold"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[20px]">space_dashboard</span><span class="font-label-lg text-label-lg">Dashboard</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="talleres" href="#"><span class="material-symbols-outlined text-[20px]">school</span><span class="font-label-lg text-label-lg">Gestión de Talleres</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl transition-colors bg-primary-container text-on-primary-container font-bold" data-path="inscripciones" href="#"><span class="material-symbols-outlined text-[20px]">how_to_reg</span><span class="font-label-lg text-label-lg">Inscripción Vecinos</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="asistencia" href="#"><span class="material-symbols-outlined text-[20px]">fact_check</span><span class="font-label-lg text-label-lg">Control Asistencia</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="inventario" href="#"><span class="material-symbols-outlined text-[20px]">inventory_2</span><span class="font-label-lg text-label-lg">Inventario y Equipos</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="reportes" href="#"><span class="material-symbols-outlined text-[20px]">analytics</span><span class="font-label-lg text-label-lg">Reportes y Dirección</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="configuracion" href="#"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-label-lg text-label-lg">Configuración</span></a></nav></div><div class="p-space-lg"><div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col gap-space-2xs"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Centro Comunitario</span><span class="font-body-sm text-body-sm text-on-surface font-semibold">Alto del Carmen</span></div></div></aside><div class="pl-sidebar-width"><header class="fixed top-0 left-sidebar-width right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-xl"><div class="flex items-center gap-space-md flex-1 max-w-xl"><div class="relative w-full"><span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span><input class="w-full h-10 pl-10 pr-space-md rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary/20" placeholder="Buscar vecinos, fichas, talleres o solicitudes..." type="search"/></div><div class="flex items-center gap-space-xs rounded-xl bg-surface-container-low px-space-sm py-1.5 shrink-0"><span class="material-symbols-outlined text-outline text-[18px]">location_on</span><select class="bg-transparent text-on-surface font-label-md text-label-md focus:outline-none pr-space-xs"><option value="all">Todo el Comunal</option><option value="san-felix">Sede San Félix</option><option value="el-transito">Sede El Tránsito</option></select></div></div><div class="flex items-center gap-space-md"><button aria-label="Notificaciones" class="relative p-space-xs rounded-xl hover:bg-surface-container-high text-on-surface-variant transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 w-4 h-4 rounded-full bg-error text-on-error font-label-sm text-[10px] flex items-center justify-center font-bold">3</span></button><div class="h-6 w-px bg-surface-container-high"></div><div class="flex items-center gap-space-sm"><div class="text-right hidden sm:flex sm:flex-col"><span class="font-label-md text-label-md font-semibold text-on-surface leading-tight">Juan Pérez</span><span class="font-label-sm text-label-sm text-on-surface-variant">Administrador Municipal</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VRhM59p_43__zkU9uBtpTTklRwlYYhRYmngHmG1S-TKDLEIZrTql80GoXTonEikyXbWEiavVfHm2oJLgChqyB65Sak4xiR-XwkXj2V2Whfe6jKYjbRd9ZtGiI6hBQYhEEKYSpSf3DCR8HgZEyurzmpcxBcL6x-30UR5bjwAk9K3QhGgWIJbVi7oZ5NyoctFr_M3ueUXEVrLRtSN7CQ_wB6UzohD0hNhsoI3oIdaiZaXJVHeui8D5llSq4"/></div></div></header><main class="relative pt-16 bg-background min-h-screen px-space-xl py-space-lg"><div class="flex flex-col w-full gap-space-xl">
+<!-- Top Action & Title Header -->
+<section class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-2xs">
+<div class="flex items-center gap-space-xs text-primary font-label-md">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+<span class="uppercase tracking-wider font-bold">DIDECO • Gestión Territorial</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Padrón Comunitario e Inscripción de Vecinos</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+        Registro civil vecinal, postulaciones a programas comunitarios y asignación de beneficios territoriales en el Valle del Huasco.
+      </p>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<button class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-xl bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-all shadow-sm font-label-lg text-label-lg" type="button">
+<span class="material-symbols-outlined text-[20px] text-secondary">file_upload</span>
+<span>Importar Padrón Municipal</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg shadow-md hover:bg-primary transition-all" onclick="document.getElementById('quick-registration-drawer').scrollIntoView({behavior: 'smooth'})" type="button">
+<span class="material-symbols-outlined text-[20px]">person_add</span>
+<span>+ Inscribir Nuevo Vecino (Ficha DIDECO)</span>
+</button>
+</div>
+</section>
+<!-- Metric / KPI Summary Cards -->
+<section class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-space-md">
+<!-- KPI 1 -->
+<div class="relative overflow-hidden bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Padrón Activo</span>
+<span class="font-display-lg text-display-lg text-on-surface mt-space-2xs">340</span>
+</div>
+<div class="w-10 h-10 rounded-xl bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">group</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center gap-space-2xs text-primary font-label-sm">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>100% validados con Registro Social</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-1 bg-primary-container"></div>
+</div>
+<!-- KPI 2 -->
+<div class="relative overflow-hidden bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Nuevas Postulaciones</span>
+<span class="font-display-lg text-display-lg text-secondary mt-space-2xs">+28</span>
+</div>
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed/30 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">how_to_reg</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center gap-space-2xs text-secondary font-label-sm">
+<span class="material-symbols-outlined text-[16px]">trending_up</span>
+<span>Ciclo Marzo 2025 en curso</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-1 bg-secondary"></div>
+</div>
+<!-- KPI 3 -->
+<div class="relative overflow-hidden bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Adultos Mayores Prioritarios</span>
+<span class="font-display-lg text-display-lg text-tertiary-container mt-space-2xs">72%</span>
+</div>
+<div class="w-10 h-10 rounded-xl bg-tertiary-fixed/40 flex items-center justify-center text-tertiary-container">
+<span class="material-symbols-outlined text-[24px]">elderly</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center gap-space-2xs text-tertiary-container font-label-sm">
+<span class="material-symbols-outlined text-[16px]">priority_high</span>
+<span>245 beneficiarios con foco gerontológico</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-1 bg-tertiary-container"></div>
+</div>
+<!-- KPI 4 -->
+<div class="relative overflow-hidden bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Hogares Beneficiados</span>
+<span class="font-display-lg text-display-lg text-on-surface mt-space-2xs">185</span>
+</div>
+<div class="w-10 h-10 rounded-xl bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">holiday_village</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center gap-space-2xs text-on-surface-variant font-label-sm">
+<span class="material-symbols-outlined text-[16px]">near_me</span>
+<span>Cobertura San Félix y El Tránsito</span>
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-1 bg-surface-container-highest"></div>
+</div>
+</section>
+<!-- Main Content Grid: Table + Side Drawer Registration Panel -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-lg items-start">
+<!-- Table & Filtering Column (8 Columns) -->
+<div class="xl:col-span-8 flex flex-col gap-space-md">
+<!-- Search & Smart Filter Bar -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex flex-col md:flex-row items-center gap-space-sm">
+<div class="relative w-full">
+<span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+<input class="w-full h-11 pl-10 pr-space-md rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary/20" id="search-input" placeholder="Buscar por RUT (ej: 14.238.490-K), Nombre, o Sector..." type="text"/>
+</div>
+<button class="inline-flex items-center gap-space-xs px-space-md h-11 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md shrink-0 transition-colors">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+<span>Filtros Avanzados</span>
+</button>
+</div>
+<!-- Quick Filter Badges / Chips -->
+<div class="flex flex-wrap items-center gap-space-xs pt-space-2xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mr-space-2xs">Filtros Rápidos:</span>
+<button class="filter-chip inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-label-sm font-semibold bg-surface-container-high text-on-surface hover:bg-secondary hover:text-on-secondary transition-all" data-filter="San Félix" type="button">
+<span class="material-symbols-outlined text-[14px]">location_on</span> San Félix
+          </button>
+<button class="filter-chip inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-label-sm font-semibold bg-surface-container-high text-on-surface hover:bg-secondary hover:text-on-secondary transition-all" data-filter="El Tránsito" type="button">
+<span class="material-symbols-outlined text-[14px]">location_on</span> El Tránsito
+          </button>
+<button class="filter-chip inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-label-sm font-semibold bg-surface-container-high text-on-surface hover:bg-primary hover:text-on-primary transition-all" data-filter="Discapacidad" type="button">
+<span class="material-symbols-outlined text-[14px]">accessible</span> Con Movilidad Reducida
+          </button>
+<button class="filter-chip inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-label-sm font-semibold bg-surface-container-high text-on-surface hover:bg-tertiary hover:text-on-tertiary transition-all" data-filter="Transporte" type="button">
+<span class="material-symbols-outlined text-[14px]">directions_bus</span> Requiere Acercamiento
+          </button>
+<button class="ml-auto text-label-sm text-secondary font-semibold hover:underline" type="button">
+            Restablecer vista
+          </button>
+</div>
+</div>
+<!-- Municipal Citizens Registry Table -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<div class="px-space-lg py-space-md flex items-center justify-between bg-surface-container-low">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">assignment_ind</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Vecinos Registrados para Ciclo Comunitario</h2>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant font-semibold">Mostrando 6 de 340 registros</span>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left" id="vecinos-table">
+<thead>
+<tr class="bg-surface-container-high/40 text-on-surface-variant font-label-md text-label-md uppercase tracking-wider">
+<th class="py-3 px-space-md">RUT</th>
+<th class="py-3 px-space-md">Vecino / Contacto</th>
+<th class="py-3 px-space-md">Sector Territorial</th>
+<th class="py-3 px-space-md">Edad / Grupo</th>
+<th class="py-3 px-space-md">Taller / Postulación</th>
+<th class="py-3 px-space-md">Estado Ficha</th>
+<th class="py-3 px-space-md text-right">Acciones</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-high">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md font-mono text-body-sm font-semibold text-on-surface">
+                  14.238.490-K
+                </td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-label-md">
+                      ML
+                    </div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md font-semibold text-on-surface">María Luisa Carmona Rivera</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">call</span> +56 9 8412 9901
+                      </span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-on-surface font-medium">San Félix</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[12px]">directions_bus</span> Acercamiento Rural
+                    </span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-on-surface">68 años</span>
+<span class="inline-flex text-[10px] font-bold uppercase tracking-wider text-tertiary-container">Adulto Mayor</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center px-2 py-0.5 rounded text-label-sm font-semibold bg-surface-container-high text-on-surface">
+                    Telar Tradicional
+                  </span>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded text-label-sm font-bold bg-[#ECFDF5] text-[#065F46]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#059669]"></span> Confirmado
+                  </span>
+</td>
+<td class="py-space-sm px-space-md text-right whitespace-nowrap">
+<div class="inline-flex items-center gap-1">
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-colors" title="Ver Ficha Social DIDECO" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-secondary transition-colors" title="Carnet Vecinal" type="button">
+<span class="material-symbols-outlined text-[18px]">id_card</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-tertiary transition-colors" title="Editar Registro" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md font-mono text-body-sm font-semibold text-on-surface">
+                  18.761.344-3
+                </td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-secondary/10 text-secondary flex items-center justify-center font-bold text-label-md">
+                      EP
+                    </div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md font-semibold text-on-surface">Esteban Pizarro Araya</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">call</span> +56 9 7731 2045
+                      </span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-on-surface font-medium">El Tránsito</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Movilidad Propia</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-on-surface">32 años</span>
+<span class="inline-flex text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">Joven Adulto</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center px-2 py-0.5 rounded text-label-sm font-semibold bg-surface-container-high text-on-surface">
+                    Huerta Orgánica y Riego
+                  </span>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded text-label-sm font-bold bg-[#FFFBEB] text-[#92400E]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#D97706]"></span> Pendiente Validación
+                  </span>
+</td>
+<td class="py-space-sm px-space-md text-right whitespace-nowrap">
+<div class="inline-flex items-center gap-1">
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-colors" title="Ver Ficha Social DIDECO" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-secondary transition-colors" title="Carnet Vecinal" type="button">
+<span class="material-symbols-outlined text-[18px]">id_card</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-tertiary transition-colors" title="Editar Registro" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md font-mono text-body-sm font-semibold text-on-surface">
+                  09.544.112-5
+                </td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-label-md">
+                      RT
+                    </div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md font-semibold text-on-surface">Rosa Torrealba Godoy</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">call</span> +56 9 6223 8810
+                      </span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-on-surface font-medium">San Félix</span>
+<span class="font-label-sm text-label-sm text-primary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">accessible</span> Movilidad Reducida
+                    </span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-on-surface">74 años</span>
+<span class="inline-flex text-[10px] font-bold uppercase tracking-wider text-tertiary-container">Adulto Mayor Prioritario</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center px-2 py-0.5 rounded text-label-sm font-semibold bg-surface-container-high text-on-surface">
+                    Gimnasia Adaptada
+                  </span>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded text-label-sm font-bold bg-[#ECFDF5] text-[#065F46]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#059669]"></span> Confirmado
+                  </span>
+</td>
+<td class="py-space-sm px-space-md text-right whitespace-nowrap">
+<div class="inline-flex items-center gap-1">
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-colors" title="Ver Ficha Social DIDECO" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-secondary transition-colors" title="Carnet Vecinal" type="button">
+<span class="material-symbols-outlined text-[18px]">id_card</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-tertiary transition-colors" title="Editar Registro" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md font-mono text-body-sm font-semibold text-on-surface">
+                  21.042.883-8
+                </td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-secondary/10 text-secondary flex items-center justify-center font-bold text-label-md">
+                      CV
+                    </div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md font-semibold text-on-surface">Cristóbal Valenzuela Soto</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">call</span> +56 9 9128 4432
+                      </span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-on-surface font-medium">El Tránsito</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sector Chanchoquín</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-on-surface">22 años</span>
+<span class="inline-flex text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">Juventud</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center px-2 py-0.5 rounded text-label-sm font-semibold bg-surface-container-high text-on-surface">
+                    Música y Cuerdas Folclóricas
+                  </span>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded text-label-sm font-bold bg-[#FEF2F2] text-[#991B1B]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#DC2626]"></span> En Espera (Cupo Lleno)
+                  </span>
+</td>
+<td class="py-space-sm px-space-md text-right whitespace-nowrap">
+<div class="inline-flex items-center gap-1">
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-colors" title="Ver Ficha Social DIDECO" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-secondary transition-colors" title="Carnet Vecinal" type="button">
+<span class="material-symbols-outlined text-[18px]">id_card</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-tertiary transition-colors" title="Editar Registro" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 5 -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-space-sm px-space-md font-mono text-body-sm font-semibold text-on-surface">
+                  12.980.124-7
+                </td>
+<td class="py-space-sm px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-label-md">
+                      HB
+                    </div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md font-semibold text-on-surface">Héctor Barraza Castillo</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">call</span> +56 9 5540 1928
+                      </span>
+</div>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-on-surface font-medium">San Félix</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Las Pircas</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<div class="flex flex-col">
+<span class="font-body-md text-on-surface">56 años</span>
+<span class="inline-flex text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">Adulto</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center px-2 py-0.5 rounded text-label-sm font-semibold bg-surface-container-high text-on-surface">
+                    Carpintería y Mueblería
+                  </span>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded text-label-sm font-bold bg-[#ECFDF5] text-[#065F46]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#059669]"></span> Confirmado
+                  </span>
+</td>
+<td class="py-space-sm px-space-md text-right whitespace-nowrap">
+<div class="inline-flex items-center gap-1">
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-primary transition-colors" title="Ver Ficha Social DIDECO" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-secondary transition-colors" title="Carnet Vecinal" type="button">
+<span class="material-symbols-outlined text-[18px]">id_card</span>
+</button>
+<button class="p-1.5 rounded-lg hover:bg-surface-container-high text-on-surface-variant hover:text-tertiary transition-colors" title="Editar Registro" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Table Pagination & Footer -->
+<div class="p-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm bg-surface-container-low/50">
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+            Página 1 de 34 padrones territoriales
+          </span>
+<div class="inline-flex items-center gap-space-2xs">
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-lowest text-on-surface font-label-sm text-label-sm shadow-sm hover:bg-surface-container-high disabled:opacity-40">
+              Anterior
+            </button>
+<button class="px-3 py-1 rounded-lg bg-primary-container text-on-primary font-label-sm text-label-sm font-bold shadow-sm">
+              1
+            </button>
+<button class="px-3 py-1 rounded-lg bg-surface-container-lowest text-on-surface font-label-sm text-label-sm shadow-sm hover:bg-surface-container-high">
+              2
+            </button>
+<button class="px-3 py-1 rounded-lg bg-surface-container-lowest text-on-surface font-label-sm text-label-sm shadow-sm hover:bg-surface-container-high">
+              3
+            </button>
+<span class="px-1 text-on-surface-variant font-label-sm">...</span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-lowest text-on-surface font-label-sm text-label-sm shadow-sm hover:bg-surface-container-high">
+              Siguiente
+            </button>
+</div>
+</div>
+</div>
+<!-- Sector Demographic Breakdown Preview -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-on-surface">Distribución por Cuenca y Localidad</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Monitoreo de cobertura social de postulación comunal</span>
+</div>
+<span class="material-symbols-outlined text-secondary text-[24px]">map</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">Sede Río El Carmen (San Félix)</span>
+<span class="font-mono font-bold text-primary">198 Inscritos</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 58%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">58% de cupos municipales ocupados</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">Sede Río El Tránsito</span>
+<span class="font-mono font-bold text-secondary">142 Inscritos</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 42%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">42% de cupos municipales ocupados</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Registration Lateral Form / Ficha DIDECO Panel (4 Columns) -->
+<div class="xl:col-span-4 bg-surface-container-lowest p-space-lg rounded-xl shadow-md flex flex-col gap-space-md sticky top-20" id="quick-registration-drawer">
+<!-- Panel Header -->
+<div class="flex items-center justify-between pb-space-sm border-b-0">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">how_to_reg</span>
+</div>
+<div class="flex flex-col">
+<h2 class="font-headline-md text-headline-md text-on-surface">Inscripción Rápida</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Formulario Único Comunal DIDECO</span>
+</div>
+</div>
+<span class="inline-flex items-center px-2 py-0.5 rounded text-label-sm font-bold bg-primary/10 text-primary uppercase tracking-wider">
+          En Línea
+        </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant -mt-space-xs">
+        Ingrese los antecedentes requeridos para validar en línea contra el padrón del Registro Social de Hogares.
+      </p>
+<!-- Form Inputs -->
+<form class="flex flex-col gap-space-sm" id="form-vecino" onsubmit="event.preventDefault(); alert('¡Vecino registrado y notificado exitosamente en la base comunitaria!');">
+<!-- Nombres y Apellidos -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md font-semibold text-on-surface" for="nombre-completo">
+            Nombres y Apellidos <span class="text-error">*</span>
+</label>
+<input class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary/30" id="nombre-completo" placeholder="Ej: Rosa Ester Valenzuela Godoy" required="" type="text"/>
+</div>
+<!-- RUT y Fecha de Nacimiento (2 cols) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md font-semibold text-on-surface" for="rut-vecino">
+              RUT <span class="text-error">*</span>
+</label>
+<input class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-mono placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary/30" id="rut-vecino" placeholder="14.238.490-K" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md font-semibold text-on-surface" for="fecha-nac">
+              F. Nacimiento <span class="text-error">*</span>
+</label>
+<input class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary/30" id="fecha-nac" required="" type="date"/>
+</div>
+</div>
+<!-- Teléfono de contacto -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md font-semibold text-on-surface" for="telefono-vecino">
+            Teléfono Móvil / Fijo <span class="text-error">*</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-outline text-[18px]">phone</span>
+<input class="w-full h-10 pl-10 pr-space-sm rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary/30" id="telefono-vecino" placeholder="+56 9 1234 5678" required="" type="tel"/>
+</div>
+</div>
+<!-- Dirección y Sector Territorial -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md font-semibold text-on-surface" for="sector-select">
+            Localidad / Sector Territorial <span class="text-error">*</span>
+</label>
+<select class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary/30" id="sector-select" required="">
+<option value="">Seleccione sector municipal...</option>
+<option value="san-felix">San Félix Centro</option>
+<option value="las-pircas">San Félix • Las Pircas</option>
+<option value="el-transito">El Tránsito Centro</option>
+<option value="chanchoquin">El Tránsito • Chanchoquín Chico</option>
+<option value="los-perales">Los Perales</option>
+<option value="la-majada">La Majada</option>
+</select>
+</div>
+<!-- Dirección Detallada -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md font-semibold text-on-surface" for="direccion-vecino">
+            Dirección / Número de Casa
+          </label>
+<input class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary/30" id="direccion-vecino" placeholder="Callejón Los Aromos s/n" type="text"/>
+</div>
+<!-- Taller Comunitario al que Postula -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md font-semibold text-on-surface" for="taller-select">
+            Taller o Programa Asignado <span class="text-error">*</span>
+</label>
+<select class="h-10 px-space-sm rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-primary/30" id="taller-select" required="">
+<option value="">Seleccionar taller con cupo disponible...</option>
+<option value="telar">Telar Tradicional Diaguita (Cupos: 4)</option>
+<option value="huerta">Huerta Comunitaria &amp; Tecnificación (Cupos: 8)</option>
+<option value="gimnasia">Gimnasia Adaptada Adulto Mayor (Cupos: 12)</option>
+<option value="carpinteria">Carpintería Básica y Oficios (Cupos: 2)</option>
+<option value="musica">Taller de Canto y Acordeón Folclórico (Cupos: 6)</option>
+</select>
+</div>
+<!-- Checkboxes de Apoyo Territorial -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<label class="flex items-start gap-space-xs cursor-pointer select-none">
+<input class="mt-1 w-4 h-4 rounded text-primary focus:ring-primary/30 accent-primary" name="transporte-rural" type="checkbox"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface">
+                Requiere transporte de acercamiento rural
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">
+                Activa parada de furgón municipal coordinado por DIDECO.
+              </span>
+</div>
+</label>
+<label class="flex items-start gap-space-xs cursor-pointer select-none">
+<input class="mt-1 w-4 h-4 rounded text-primary focus:ring-primary/30 accent-primary" name="movilidad-reducida" type="checkbox"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-semibold text-on-surface">
+                Discapacidad o movilidad reducida
+              </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">
+                Habilita asignación en sala de planta baja y acceso universal.
+              </span>
+</div>
+</label>
+</div>
+<!-- Form Action Buttons -->
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<button class="w-full h-11 rounded-xl bg-primary-container hover:bg-primary text-on-primary font-label-lg text-label-lg font-bold transition-colors shadow-md flex items-center justify-center gap-space-xs" type="submit">
+<span class="material-symbols-outlined text-[20px]">save</span>
+<span>Guardar e Inscribir Vecino</span>
+</button>
+<button class="w-full h-10 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-colors" type="reset">
+            Limpiar Formulario
+          </button>
+</div>
+</form>
+<!-- Institutional Footer Note -->
+<div class="mt-space-2xs p-space-sm rounded-xl bg-surface-container-low flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">policy</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">
+          Cumplimiento Ley 19.628 de Protección de Datos Personales del Padrón Municipal.
+        </span>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Simple instant search filter for the citizens table
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', function(e) {
+      const query = e.target.value.toLowerCase().trim();
+      const rows = document.querySelectorAll('#vecinos-table tbody tr');
+      rows.forEach(row => {
+        const text = row.textContent.toLowerCase();
+        row.style.display = text.includes(query) ? '' : 'none';
+      });
+    });
+  }
+
+  // Quick filter chips click handlers
+  const filterChips = document.querySelectorAll('.filter-chip');
+  filterChips.forEach(chip => {
+    chip.addEventListener('click', function() {
+      const filterVal = this.getAttribute('data-filter').toLowerCase();
+      if (searchInput) {
+        searchInput.value = this.getAttribute('data-filter');
+        const rows = document.querySelectorAll('#vecinos-table tbody tr');
+        rows.forEach(row => {
+          const text = row.textContent.toLowerCase();
+          row.style.display = text.includes(filterVal) ? '' : 'none';
+        });
+      }
+    });
+  });
+</script></main></div></body></html>
