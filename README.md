@@ -83,8 +83,10 @@ RUT valido sugerido para la prueba manual: `12.345.678-5`.
 ├── tests/community-service.test.js Pruebas de reglas de negocio
 ├── docs/                            Evidencias y documentacion de entrega
 ├── *.html                           Pantallas oficiales conservadas
-└── */code.html y */screen.png       Exportaciones originales conservadas
+└── talleres/, inventario/, vecinos/ Fichas funcionales enlazadas
 ```
+
+Las exportaciones originales (`code.html` y `screen.png`) se conservaron fuera de este repositorio, en la carpeta `../archivo_original_epe1/`.
 
 ## Funcionalidades Implementadas
 
